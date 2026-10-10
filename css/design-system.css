@@ -72,14 +72,14 @@
   /* ========================================================================
      1b. LIQUID-GLASS MORPHISM DESIGN TOKENS (APPLE-INSPIRED LUXURY SPEC)
      ======================================================================== */
-  --glass-surface-base: rgba(243, 240, 232, 0.72);
-  --glass-surface-scrolled: rgba(243, 240, 232, 0.88);
-  --glass-surface-fallback: rgba(243, 240, 232, 0.96);
-  --glass-border: 1px solid rgba(255, 255, 255, 0.55);
-  --glass-border-scrolled: 1px solid rgba(255, 255, 255, 0.75);
+  --glass-surface-base: transparent;
+  --glass-surface-scrolled: rgba(255, 255, 255, 0.12);
+  --glass-surface-fallback: rgba(255, 255, 255, 0.85);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.35);
+  --glass-border-scrolled: 1px solid rgba(255, 255, 255, 0.45);
   --glass-border-inner: rgba(40, 48, 68, 0.08);
-  --glass-blur: 24px;
-  --glass-saturate: 160%;
+  --glass-blur: 0px;
+  --glass-saturate: 100%;
   --glass-depth-shadow: 
     0 1px 0 0 rgba(255, 255, 255, 0.75) inset,
     0 -1px 0 0 rgba(40, 48, 68, 0.04) inset,
@@ -518,7 +518,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.45rem;
-  padding: 0 1.35rem 0 1.2rem;
+  padding: 0 2.25rem; /* Symmetric padding ensures 6px clean clearance from both left and right arrow slots */
   min-height: 42px;
   height: 42px;
   font-family: var(--font-sans, "Plus Jakarta Sans", sans-serif);
@@ -553,7 +553,7 @@ body {
 /* Arrow 1 (on the right by default) */
 .animated-button .arr-1 {
   position: absolute;
-  right: 1.15rem;
+  right: 1.05rem;
   width: 15px;
   height: 15px;
   fill: currentColor;
@@ -562,7 +562,7 @@ body {
   opacity: 1;
   transition: transform 0.45s cubic-bezier(0.23, 1, 0.32, 1),
               opacity 0.35s ease,
-              color 0.4s ease;
+              fill 0.4s ease;
   pointer-events: none;
   flex-shrink: 0;
 }
@@ -570,7 +570,7 @@ body {
 /* Arrow 2 (hidden off-canvas left by default) */
 .animated-button .arr-2 {
   position: absolute;
-  left: 1.15rem;
+  left: 1.05rem;
   width: 15px;
   height: 15px;
   fill: currentColor;
@@ -579,7 +579,7 @@ body {
   opacity: 0;
   transition: transform 0.45s cubic-bezier(0.23, 1, 0.32, 1),
               opacity 0.35s ease,
-              color 0.4s ease;
+              fill 0.4s ease;
   pointer-events: none;
   flex-shrink: 0;
 }
@@ -601,8 +601,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.08);
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   background-color: var(--color-space-indigo, #283044);
   opacity: 0;
@@ -645,7 +645,7 @@ body {
 .animated-button.inquiry-cta {
   min-height: 36px;
   height: 36px;
-  padding: 0 1.05rem 0 0.95rem;
+  padding: 0 1.85rem;
   font-size: 0.75rem;
   gap: 0.35rem;
 }
@@ -653,7 +653,7 @@ body {
 .animated-button--compact .arr-1,
 .animated-button--sm .arr-1,
 .animated-button.inquiry-cta .arr-1 {
-  right: 0.9rem;
+  right: 0.85rem;
   width: 13px;
   height: 13px;
 }
@@ -661,7 +661,7 @@ body {
 .animated-button--compact .arr-2,
 .animated-button--sm .arr-2,
 .animated-button.inquiry-cta .arr-2 {
-  left: 0.9rem;
+  left: 0.85rem;
   width: 13px;
   height: 13px;
   transform: translateX(-20px);
@@ -680,6 +680,7 @@ body {
 .animated-button--sm:focus-visible .arr-1,
 .animated-button.inquiry-cta:focus-visible .arr-1 {
   transform: translateX(20px);
+  opacity: 0;
 }
 
 .animated-button--compact:hover .arr-2,
@@ -689,6 +690,7 @@ body {
 .animated-button--sm:focus-visible .arr-2,
 .animated-button.inquiry-cta:focus-visible .arr-2 {
   transform: translateX(0);
+  opacity: 1;
 }
 
 .animated-button--compact:hover .text,
@@ -705,8 +707,34 @@ body {
 .animated-button--lg {
   min-height: 44px;
   height: 44px;
-  padding: 0 1.55rem 0 1.35rem;
+  padding: 0 2.45rem;
   font-size: 0.8125rem;
+}
+
+.animated-button--hero .arr-1,
+.animated-button--lg .arr-1 {
+  right: 1.15rem;
+  width: 15px;
+  height: 15px;
+}
+
+.animated-button--hero .arr-2,
+.animated-button--lg .arr-2 {
+  left: 1.15rem;
+  width: 15px;
+  height: 15px;
+}
+
+.animated-button--hero .text,
+.animated-button--lg .text {
+  transform: translateX(-7px);
+}
+
+.animated-button--hero:hover .text,
+.animated-button--lg:hover .text,
+.animated-button--hero:focus-visible .text,
+.animated-button--lg:focus-visible .text {
+  transform: translateX(7px);
 }
 
 /* --------------------------------------------------------------------------

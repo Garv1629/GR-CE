@@ -5,13 +5,7 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Accessibility & Motion Preference Query
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (!prefersReducedMotion) {
-    document.documentElement.classList.add('js-motion');
-  }
-
-  // 1b. Header Scroll Detection (Permanent Liquid Glass Capsule Navbar)
+  // 1. Header Scroll Detection
   const header = document.getElementById('mainHeader') || document.querySelector('.header');
   if (header) {
     const handleScroll = () => {
@@ -23,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     window.addEventListener('scroll', handleScroll, { passive: true });
     handleScroll();
+  }
 
     // 1c. Apple-Inspired Liquid Glass Dynamic Specular Sheen (Mouse Tracking)
     if (window.matchMedia('(pointer: fine)').matches && !prefersReducedMotion) {
@@ -44,84 +39,12 @@ document.addEventListener('DOMContentLoaded', () => {
         header.style.removeProperty('--mouse-y');
       });
     }
-  }
+  
 
-  // 1d. Automatic Active Navigation Indicator
-  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
-  const navItems = document.querySelectorAll('.nav-list .nav-item');
-  navItems.forEach(item => {
-    const link = item.querySelector('.nav-link');
-    if (!link) return;
-    const href = link.getAttribute('href');
-    if (!href) return;
-
-    const hrefPath = href.split('#')[0];
-    if (hrefPath && hrefPath === currentPath) {
-      item.classList.add('active');
-    }
-  });
-
-  // 1e. Smooth Anchor Navigation with Persistent Floating Navbar Height Compensation
-  const navAnchorLinks = document.querySelectorAll('a[href^="#"]');
-  navAnchorLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      const hash = link.getAttribute('href');
-      if (!hash || hash === '#' || hash === 'javascript:void(0)') return;
-
-      const targetId = hash.substring(1);
-      let targetElement = document.getElementById(targetId);
-
-      // Support semantic section aliases
-      if (!targetElement && targetId === 'products') {
-        targetElement = document.getElementById('services');
-      }
-      if (!targetElement && targetId === 'brand-design') {
-        targetElement = document.getElementById('branDedign');
-      }
-
-      if (targetElement) {
-        e.preventDefault();
-        const headerEl = document.getElementById('mainHeader') || document.querySelector('.header');
-        const headerHeight = headerEl ? headerEl.offsetHeight : 64;
-        const navOffset = headerHeight + 36; // Account for floating capsule top margin + breathing room
-        const elementPosition = targetElement.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - navOffset;
-
-        window.scrollTo({
-          top: Math.max(0, offsetPosition),
-          behavior: prefersReducedMotion ? 'auto' : 'smooth'
-        });
-
-        if (window.history && window.history.pushState) {
-          window.history.pushState(null, null, hash);
-        }
-      }
-    });
-  });
-
-  // Handle initial page load with anchor hash in URL (e.g. index.html#products)
-  if (window.location.hash) {
-    const initialHash = window.location.hash.substring(1);
-    let initialTarget = document.getElementById(initialHash);
-    if (!initialTarget && initialHash === 'products') {
-      initialTarget = document.getElementById('services');
-    }
-    if (!initialTarget && initialHash === 'brand-design') {
-      initialTarget = document.getElementById('branDedign');
-    }
-    if (initialTarget) {
-      setTimeout(() => {
-        const headerEl = document.getElementById('mainHeader') || document.querySelector('.header');
-        const headerHeight = headerEl ? headerEl.offsetHeight : 64;
-        const navOffset = headerHeight + 36;
-        const elementPosition = initialTarget.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - navOffset;
-        window.scrollTo({
-          top: Math.max(0, offsetPosition),
-          behavior: prefersReducedMotion ? 'auto' : 'smooth'
-        });
-      }, 150);
-    }
+  // 2. Reduced Motion Query
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!prefersReducedMotion) {
+    document.documentElement.classList.add('js-motion');
   }
 
   // 3. Hero Video Setup with Fallback, Interactive Toggle & Scroll Cue
@@ -317,11 +240,11 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Hospitality Architecture'
     },
     business: {
-      src: 'https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg',
+      src: 'assets/remote/wp-content/uploads/2026/02/Business-Premises.jpg',
       title: 'Corporate Spatial Design'
     },
     photography: {
-      src: 'https://www.wordofgrece.com/wp-content/uploads/2025/12/photography-pix1.webp',
+      src: 'assets/remote/wp-content/uploads/2025/12/photography-pix1.webp',
       title: 'Editorial Interior Photography'
     },
     all: {
@@ -469,22 +392,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // 9. Architectural Commission Inquiry Form Universal Handler
-  const inquiryForms = document.querySelectorAll('#homepageInquiryForm, form[action="/api/inquiry"]:not(#greceInquiryForm)');
+  const inquiryForms = document.querySelectorAll('form[action="/api/inquiry"], #greceInquiryForm, #homepageInquiryForm');
   inquiryForms.forEach(form => {
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
-
-      let statusBanner = form.querySelector('.form-status-banner') || form.parentElement.querySelector('.form-status-banner');
-      if (!statusBanner) {
-        statusBanner = document.createElement('div');
-        statusBanner.className = 'form-status-banner';
-        statusBanner.style.display = 'none';
-        form.insertBefore(statusBanner, form.lastElementChild);
-      }
-
+      const statusBanner = form.parentElement.querySelector('.form-status-banner') || form.querySelector('.form-status-banner');
       const submitBtn = form.querySelector('button[type="submit"]');
-      const textEl = submitBtn ? (submitBtn.querySelector('.text') || submitBtn.querySelector('.btn-label-text') || submitBtn) : null;
-      const originalBtnText = textEl ? textEl.textContent.trim() : 'Transmit Inquiry';
+      const originalBtnText = submitBtn ? submitBtn.innerHTML : '';
 
       // Clear previous banner
       if (statusBanner) {
@@ -540,11 +454,10 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      // Button loading state without corrupting DOM/SVG arrows
+      // Button loading state
       if (submitBtn) {
         submitBtn.disabled = true;
-        submitBtn.classList.add('is-submitting');
-        if (textEl) textEl.textContent = 'Transmitting...';
+        submitBtn.innerHTML = '<span>Transmitting Inquiry...</span>';
       }
 
       try {
@@ -566,8 +479,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if (statusBanner) {
             statusBanner.className = 'form-status-banner status-error';
             statusBanner.style.display = 'block';
-            const errMsg = (typeof result.message === 'string' && result.message) ? result.message : 'Error transmitting inquiry. Please reach out directly.';
-            statusBanner.textContent = errMsg;
+            statusBanner.textContent = result.message || 'Error transmitting inquiry. Please reach out directly.';
           }
         }
       } catch (err) {
@@ -579,8 +491,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } finally {
         if (submitBtn) {
           submitBtn.disabled = false;
-          submitBtn.classList.remove('is-submitting');
-          if (textEl) textEl.textContent = originalBtnText;
+          submitBtn.innerHTML = originalBtnText;
         }
       }
     });
@@ -625,12 +536,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const elementsToObserve = new Set();
 
-    // Collect any explicitly designated elements
     document.querySelectorAll('.reveal-on-scroll, .reveal-clip, .reveal-media, .reveal-stagger').forEach(el => {
       elementsToObserve.add(el);
     });
 
-    // Tag semantic containers
     autoRevealSelectors.forEach(sel => {
       document.querySelectorAll(sel).forEach(el => {
         el.classList.add('reveal-on-scroll');
@@ -638,7 +547,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
 
-    // Mask image frame reveals
     document.querySelectorAll('.media-frame, .ProductImg, .monograph-hero-plate, .monograph-subplate').forEach(el => {
       el.classList.add('reveal-media');
       elementsToObserve.add(el);
@@ -648,7 +556,6 @@ document.addEventListener('DOMContentLoaded', () => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('is-revealed');
-          // Once revealed, keep in DOM permanently to avoid disappearing during scrolling
           obs.unobserve(entry.target);
         }
       });
@@ -659,7 +566,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     elementsToObserve.forEach(el => revealObserver.observe(el));
   } else {
-    // If reduced motion is requested or IntersectionObserver is unsupported, reveal all
     document.querySelectorAll('.reveal-on-scroll, .reveal-clip, .reveal-media, .reveal-stagger').forEach(el => {
       el.classList.add('is-revealed');
     });
@@ -685,18 +591,16 @@ document.addEventListener('DOMContentLoaded', () => {
       const scrollY = window.pageYOffset || document.documentElement.scrollTop;
       const vh = window.innerHeight;
 
-      // 12a. Hero background video/image translation
       if (heroMedia && scrollY < vh * 1.3) {
         const heroOffset = scrollY * 0.15;
         heroMedia.style.transform = `translate3d(0, ${heroOffset.toFixed(1)}px, 0)`;
       }
 
-      // 12b. Architectural plates subtle vertical drift
       parallaxImages.forEach(img => {
         const rect = img.getBoundingClientRect();
         if (rect.bottom > -100 && rect.top < vh + 100) {
           const relativePos = (rect.top + rect.height / 2) - (vh / 2);
-          const maxShift = 24; // strictly capped at 24px
+          const maxShift = 24;
           const shift = (relativePos / vh) * -maxShift;
           img.style.transform = `translate3d(0, ${shift.toFixed(1)}px, 0) scale(1.045)`;
         }
@@ -735,4 +639,5 @@ document.addEventListener('DOMContentLoaded', () => {
       disciplineItems.forEach(item => stepObserver.observe(item));
     }
   }
+
 });

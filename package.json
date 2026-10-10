@@ -4,6 +4,7 @@
   "description": "GRÈCE — Global Premium Design System & Cinematic Media System",
   "private": true,
   "scripts": {
+    "build": "echo 'Static build ready'",
     "start": "node server.js",
     "dev": "node server.js",
     "test": "node -c js/main.js"
