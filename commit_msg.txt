@@ -1,1 +1,1 @@
-fix: add vercel.json configuration and static build script
+fix(vercel): clean modern vercel.json schema with rewrites and cleanUrls
