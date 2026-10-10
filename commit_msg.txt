@@ -1,1 +1,1 @@
-fix(vercel): add explicit buildCommand in vercel.json
+fix(deployment): configure root static serving with cleanUrls and rewrites
