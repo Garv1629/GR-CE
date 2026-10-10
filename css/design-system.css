@@ -1,0 +1,488 @@
+/**
+ * ==========================================================================
+ * GRÈCE — GLOBAL PREMIUM DESIGN SYSTEM
+ * Architecture + Interior Design + Furniture + Luxury Lifestyle
+ * ==========================================================================
+ * 
+ * DESIGN DIRECTION:
+ * Image-First Art Direction + Space Indigo & Pastel Accent System
+ * 
+ * PALETTE:
+ * - Space Indigo:    #283044 (Primary dark surfaces, typography, architectural foundation)
+ * - Warm Ivory:      #F3F0E8 (Supporting atmospheric neutral background canvas)
+ * - Pale Sky:        #BAD7F2 (Cool ethereal architectural accent — active states & hovers)
+ * - Vanilla Custard: #D6CE93 (Warm neutral accent — category micro-labels & subtle hairlines)
+ * - Soft Blossom:    #F2BAC9 (Delicate selective accent — rare editorial highlights)
+ * 
+ * TYPOGRAPHY:
+ * - Display Serif:   Cormorant Garamond (High-contrast editorial headlines)
+ * - Functional Sans: Plus Jakarta Sans (Clean modern architectural interface & body)
+ * - Editorial Script: Pinyon Script (Expressive lettering used sparingly as an accent)
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Pinyon+Script&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* ========================================================================
+     1. COLOR SYSTEM (Space Indigo & Restrained Pastel Accent Palette)
+     ======================================================================== */
+  /* Neutral Canvas Foundations */
+  --color-bg-primary: #F3F0E8;        /* Warm Ivory — Supporting atmospheric canvas */
+  --color-bg-secondary: #EBE6DB;      /* Muted Ivory Tint — Subtle section differentiation */
+  --color-bg-elevated: #FAF8F5;       /* Elevated Surface — Modals & elevated panels */
+  
+  /* Primary Dark Surfaces & Typography */
+  --color-space-indigo: #283044;      /* Space Indigo — Principal foundation & deep contrast */
+  --color-space-indigo-dark: #1E2433; /* Deep Space Indigo — Elevated dark surface */
+  --color-text-primary: #283044;      /* Space Indigo — High-contrast editorial typography */
+  --color-text-secondary: #4A5266;    /* Soft Muted Indigo — Body copy & descriptions */
+  --color-text-tertiary: #7D8599;     /* Atmospheric Slate Indigo — Metadata & specifications */
+
+  /* Reference Pastel Accents (Used Selectively with Restraint) */
+  --color-pale-sky: #BAD7F2;          /* Pale Sky — Active highlights, hover transitions, subtle lines */
+  --color-pale-sky-muted: rgba(186, 215, 242, 0.25);
+  
+  --color-vanilla-custard: #D6CE93;   /* Vanilla Custard — Warm category micro-labels & hairline accents */
+  --color-vanilla-custard-muted: rgba(214, 206, 147, 0.25);
+  
+  --color-soft-blossom: #F2BAC9;      /* Soft Blossom — Selective delicate editorial accents */
+  --color-soft-blossom-muted: rgba(242, 186, 201, 0.25);
+
+  /* Semantic Accent Aliases */
+  --color-accent-primary: var(--color-pale-sky);
+  --color-accent-warm: var(--color-vanilla-custard);
+  --color-accent-delicate: var(--color-soft-blossom);
+
+  /* Structural Hairlines */
+  --color-stone: #B8B1A5;              /* Stone — Low-contrast structural dividers */
+  --color-stone-light: #DDD8CF;        /* Stone Ultra-light — Delicate hairline rules */
+  
+  /* Absolute Lights & Darks */
+  --color-white: #FFFFFF;             /* Pure White — Photography backplates, pristine accents */
+  --color-pure-black: #0E0E0D;        /* Ultra Deep Charcoal — Cinematic video backdrops */
+  --color-overlay-dark: rgba(40, 48, 68, 0.6);
+  --color-overlay-subtle: rgba(40, 48, 68, 0.18);
+
+  /* Semantic Hairlines */
+  --border-hairline: 1px solid rgba(40, 48, 68, 0.08);
+  --border-pale-sky: 1px solid rgba(186, 215, 242, 0.45);
+  --border-vanilla: 1px solid rgba(214, 206, 147, 0.45);
+  --border-stone: 1px solid rgba(184, 177, 165, 0.35);
+
+  /* ========================================================================
+     2. CINEMATIC MEDIA & EDITORIAL PHOTOGRAPHY TOKENS (IMAGE-FIRST)
+     ======================================================================== */
+  /* Proportional Aspect Ratios */
+  --aspect-cinema-ultrawide: 21 / 9;   /* Full-bleed architectural panoramic moments */
+  --aspect-cinema-widescreen: 16 / 9;  /* Standard cinematic project footage */
+  --aspect-architectural-golden: 1.618 / 1; /* Golden ratio architectural landscape */
+  --aspect-editorial-tall: 3 / 4;      /* Tall architectural vertical framing (Hospitality/Interiors) */
+  --aspect-editorial-standard: 4 / 5;  /* Classical editorial photograph proportion */
+  --aspect-material-detail: 1 / 1;     /* Focused craftsmanship, texture & finish detail */
+  --aspect-product-isolated: 4 / 3;    /* Museum furniture presentation */
+
+  /* Object Positioning & Crop Focal Points */
+  --object-pos-architectural: center 30%; /* Prioritizes ceiling height & spatial volume */
+  --object-pos-center: center center;
+  --object-pos-detail: center 70%;       /* Prioritizes joinery, texture & material craftsmanship */
+
+  /* Media Motion & Easing */
+  --media-hover-scale: scale(1.032);
+  --media-hover-duration: 950ms;
+  --media-hover-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --media-fade-ease: cubic-bezier(0.25, 1, 0.5, 1);
+
+  /* ========================================================================
+     3. TYPOGRAPHY SYSTEM
+     High-contrast Editorial Serif + Architectural Clean Sans-Serif + Expressive Accent
+     ======================================================================== */
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-script: 'Pinyon Script', cursive; /* Used strictly for rare artistic accents */
+
+  /* Font Scale — Fluid clamp() hierarchy */
+  --text-display-hero: clamp(2.75rem, 6.5vw, 5.75rem);   /* Cinematic Hero Headlines */
+  --text-display-lg:   clamp(2.25rem, 4.5vw, 4rem);      /* Major Editorial Section Titles */
+  --text-display-md:   clamp(1.75rem, 3.2vw, 2.75rem);    /* Project / Collection Titles */
+  --text-display-sm:   clamp(1.35rem, 2.2vw, 2rem);       /* Subsection / Featured Headings */
+  --text-title:        clamp(1.15rem, 1.5vw, 1.5rem);     /* Architectural Titles & Subheadings */
+
+  --text-body-lg:      clamp(1.05rem, 1.2vw, 1.25rem);    /* Editorial Lead Paragraphs */
+  --text-body:         clamp(0.9375rem, 1vw, 1.0625rem);  /* Standard Body Text */
+  --text-body-sm:      0.875rem;                          /* Secondary Functional Text */
+  --text-caption:      0.8125rem;                         /* Product Metadata & Specifications */
+  --text-micro:        0.75rem;                           /* Uppercase Micro-labels, Category Tags */
+
+  /* Line Heights */
+  --lh-tight: 1.05;
+  --lh-snug:  1.2;
+  --lh-title: 1.35;
+  --lh-body:  1.7;
+
+  /* Tracking (Letter Spacing) */
+  --track-tighter: -0.03em;
+  --track-tight:   -0.015em;
+  --track-normal:   0em;
+  --track-wide:     0.06em;
+  --track-wider:    0.12em;
+  --track-widest:   0.2em;
+
+  /* Font Weights */
+  --fw-light:     300;
+  --fw-regular:   400;
+  --fw-medium:    500;
+  --fw-semibold:  600;
+  --fw-bold:      700;
+
+  /* ========================================================================
+     4. SPACING SYSTEM (Intentional Negative Space for Media Breathing Room)
+     ======================================================================== */
+  --space-3xs: clamp(0.25rem, 0.3vw, 0.375rem);
+  --space-2xs: clamp(0.5rem, 0.6vw, 0.625rem);
+  --space-xs:  clamp(0.75rem, 0.9vw, 1rem);
+  --space-sm:  clamp(1rem, 1.3vw, 1.375rem);
+  --space-md:  clamp(1.5rem, 2vw, 2.25rem);
+  --space-lg:  clamp(2.25rem, 3vw, 3.5rem);
+  --space-xl:  clamp(3.5rem, 4.8vw, 5.5rem);
+  --space-2xl: clamp(5rem, 7vw, 8rem);
+  --space-3xl: clamp(7rem, 9.5vw, 11rem);
+
+  --section-pad-y: clamp(5rem, 8vw, 9.5rem);
+  --section-pad-x: clamp(1.5rem, 4.5vw, 5.5rem);
+  --container-max: 1680px;
+
+  /* Corner Radius (Architectural Minimal) */
+  --radius-none: 0px;
+  --radius-subtle: 2px;
+
+  /* Shadows (Restrained) */
+  --shadow-none: none;
+  --shadow-dropdown: 0 16px 40px rgba(40, 48, 68, 0.08);
+  --shadow-modal: 0 24px 64px rgba(40, 48, 68, 0.16);
+}
+
+/* ==========================================================================
+   GLOBAL BASE & RESET
+   ========================================================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-body);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Selection Color */
+::selection {
+  background-color: var(--color-space-indigo);
+  color: var(--color-pale-sky);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-stone);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-space-indigo);
+}
+
+/* ==========================================================================
+   REUSABLE MEDIA SYSTEM CLASSES (IMAGE-FIRST FOUNDATIONS)
+   ========================================================================== */
+.media-frame {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-bg-secondary);
+  display: block;
+}
+
+.media-frame img,
+.media-frame video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: none;
+  transition: transform var(--media-hover-duration) var(--media-hover-ease);
+  will-change: transform;
+}
+
+.media-frame-tall {
+  aspect-ratio: var(--aspect-editorial-tall);
+}
+
+.media-frame-editorial {
+  aspect-ratio: var(--aspect-editorial-standard);
+}
+
+.media-frame-wide {
+  aspect-ratio: var(--aspect-cinema-widescreen);
+}
+
+.media-frame-ultrawide {
+  aspect-ratio: var(--aspect-cinema-ultrawide);
+}
+
+.media-frame-detail {
+  aspect-ratio: var(--aspect-material-detail);
+}
+
+.media-frame-golden {
+  aspect-ratio: var(--aspect-architectural-golden);
+}
+
+.media-hover-zoom:hover img,
+.media-hover-zoom:hover video {
+  transform: var(--media-hover-scale);
+}
+
+.cinematic-video-frame {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--color-pure-black);
+}
+
+.cinematic-video-frame video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: var(--object-pos-architectural);
+  display: block;
+  transform: translateZ(0);
+}
+
+.cinematic-gradient-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(40, 48, 68, 0.38) 0%,
+    rgba(40, 48, 68, 0.05) 40%,
+    rgba(40, 48, 68, 0.15) 70%,
+    rgba(40, 48, 68, 0.58) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.media-caption-integrated {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: var(--space-xs);
+  border-top: 1px solid rgba(40, 48, 68, 0.08);
+  margin-top: var(--space-xs);
+}
+
+/* ==========================================================================
+   EDITORIAL TYPOGRAPHY UTILITIES
+   ========================================================================== */
+.editorial-display-hero {
+  font-family: var(--font-serif);
+  font-size: var(--text-display-hero);
+  font-weight: var(--fw-light);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--track-tighter);
+  color: var(--color-text-primary);
+}
+
+.editorial-display-lg {
+  font-family: var(--font-serif);
+  font-size: var(--text-display-lg);
+  font-weight: var(--fw-light);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--track-tighter);
+  color: var(--color-text-primary);
+}
+
+.editorial-display-md {
+  font-family: var(--font-serif);
+  font-size: var(--text-display-md);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--track-tight);
+  color: var(--color-text-primary);
+}
+
+.editorial-display-sm {
+  font-family: var(--font-serif);
+  font-size: var(--text-display-sm);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-title);
+  letter-spacing: var(--track-tight);
+  color: var(--color-text-primary);
+}
+
+/* Expressive Script Accent (Used sparingly, never for body/nav) */
+.editorial-script {
+  font-family: var(--font-script);
+  font-weight: normal;
+  font-size: 1.25em;
+  color: var(--color-text-secondary);
+}
+
+/* Micro-labels with Curated Accents */
+.micro-label {
+  font-family: var(--font-sans);
+  font-size: var(--text-micro);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--track-widest);
+  text-transform: uppercase;
+  color: var(--color-vanilla-custard);
+  display: inline-block;
+}
+
+.micro-label-sky {
+  font-family: var(--font-sans);
+  font-size: var(--text-micro);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--track-widest);
+  text-transform: uppercase;
+  color: var(--color-pale-sky);
+  display: inline-block;
+}
+
+.micro-label-blossom {
+  font-family: var(--font-sans);
+  font-size: var(--text-micro);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--track-widest);
+  text-transform: uppercase;
+  color: var(--color-soft-blossom);
+  display: inline-block;
+}
+
+.editorial-meta {
+  font-family: var(--font-sans);
+  font-size: var(--text-caption);
+  font-weight: var(--fw-regular);
+  letter-spacing: var(--track-wide);
+  color: var(--color-text-tertiary);
+}
+
+/* ==========================================================================
+   ARCHITECTURAL BUTTONS & CTAS
+   ========================================================================== */
+.btn-editorial-primary,
+.cta-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  padding: 0.95rem 2rem;
+  font-family: var(--font-sans);
+  font-size: var(--text-micro);
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--track-wide);
+  text-transform: uppercase;
+  color: var(--color-bg-primary);
+  background-color: var(--color-space-indigo);
+  border: 1px solid var(--color-space-indigo);
+  border-radius: var(--radius-none);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease, transform 200ms ease;
+}
+
+.btn-editorial-primary:hover,
+.cta-primary:hover {
+  background-color: var(--color-space-indigo-dark);
+  border-color: var(--color-pale-sky);
+  color: var(--color-pale-sky);
+}
+
+.link-editorial,
+.cta-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-sans);
+  font-size: var(--text-micro);
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--track-wider);
+  text-transform: uppercase;
+  color: var(--color-text-primary);
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 3px;
+  transition: color 250ms ease;
+}
+
+.link-editorial::after,
+.cta-text::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-space-indigo);
+  transition: transform 300ms cubic-bezier(0.25, 1, 0.5, 1), background-color 250ms ease;
+  transform-origin: right;
+  transform: scaleX(1);
+}
+
+.link-editorial:hover,
+.cta-text:hover {
+  color: var(--color-space-indigo);
+}
+
+.link-editorial:hover::after,
+.cta-text:hover::after {
+  background-color: var(--color-pale-sky);
+  transform-origin: left;
+}
+
+/* Global Accessible Focus Indicators (WCAG 2.1 AA) */
+:focus-visible {
+  outline: 2px solid var(--color-pale-sky, #BAD7F2);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ==========================================================================
+   ACCESSIBILITY & REDUCED MOTION PREFERENCES
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .media-frame img,
+  .media-hover-zoom:hover img,
+  .cinematic-video-frame video {
+    transform: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,2087 @@
+{
+  "totalRefs": 131,
+  "distinctCount": 56,
+  "brokenUrls": [],
+  "workingUrls": [
+    {
+      "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "assets/generated/hospitality/hospitality-editorial.jpg",
+      "isRemote": false,
+      "status": 200,
+      "size": 822511,
+      "ok": true
+    },
+    {
+      "url": "assets/generated/hero/hero-architecture-desktop.jpg",
+      "isRemote": false,
+      "status": 200,
+      "size": 768083,
+      "ok": true
+    },
+    {
+      "url": "assets/generated/architecture/architecture-exterior-editorial.jpg",
+      "isRemote": false,
+      "status": 200,
+      "size": 816648,
+      "ok": true
+    },
+    {
+      "url": "assets/generated/materials/material-stone-texture.jpg",
+      "isRemote": false,
+      "status": 200,
+      "size": 829095,
+      "ok": true
+    },
+    {
+      "url": "assets/generated/architecture/architecture-light-staircase.jpg",
+      "isRemote": false,
+      "status": 200,
+      "size": 639878,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/account.svg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/bag.svg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/product-pic1.webp",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/collections-pic2.webp",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05614-1-scaled.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05635-1-scaled.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-17-2.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-18-2.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-27-scaled.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-22.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "assets/generated/interiors/interior-sculptural-living.jpg",
+      "isRemote": false,
+      "status": 200,
+      "size": 732545,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/photography-pix2.webp",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Hertz-Perfume.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/torii-nest-armchair.webp",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/wall-lamp.webp",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/garden-blossom-cabinet.webp",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "assets/generated/studio/studio-atmosphere-concept.jpg",
+      "isRemote": false,
+      "status": 200,
+      "size": 808110,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/facebook.svg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/instagram.svg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/linkedin.svg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/pintrest.svg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/youtube.svg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "assets/generated/hero/hero-architecture-mobile.jpg",
+      "isRemote": false,
+      "status": 200,
+      "size": 1014472,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/business-pic3.webp",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/hospitality-pic2.webp",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/home-pic-1.webp",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/3-2.png",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/6-1.png",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/10-1.png",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/14-1.png",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/19-1.png",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/22-1.png",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/28.jpg-1.jpeg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-14-2.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-23-1.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05626-1-scaled.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-10-2.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-15-2.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-23.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-05-2.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05631-1-scaled.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05610-1-scaled.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-19-scaled.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-16-scaled.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-8-scaled.jpg",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Pinyon+Script&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap",
+      "isRemote": true,
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "refsWithStatus": [
+    {
+      "file": "about.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"120\" \n            height=\"25\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "about.html",
+      "tag": "<img \n                      id=\"navWorkPreviewImg\" \n                      src=\"assets/generated/hospitality/hospitality-editorial.jpg\" \n                      alt=\"Hospitality Architecture Preview\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"180\" \n                      height=\"135\" \n                    />",
+      "src": "assets/generated/hospitality/hospitality-editorial.jpg",
+      "alt": "Hospitality Architecture Preview",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hospitality/hospitality-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 822511,
+        "ok": true
+      }
+    },
+    {
+      "file": "about.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" alt=\"Grèce\" width=\"110\" height=\"23\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "about.html",
+      "tag": "<img \n              src=\"assets/generated/hero/hero-architecture-desktop.jpg\" \n              alt=\"Grèce Studio Architectural Interior Study — Monolithic Volumes and Ambient Light\"\n              fetchpriority=\"high\"\n              decoding=\"async\"\n              width=\"1600\"\n              height=\"685\"\n            />",
+      "src": "assets/generated/hero/hero-architecture-desktop.jpg",
+      "alt": "Grèce Studio Architectural Interior Study — Monolithic Volumes and Ambient Light",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hero/hero-architecture-desktop.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 768083,
+        "ok": true
+      }
+    },
+    {
+      "file": "about.html",
+      "tag": "<img \n              src=\"assets/generated/architecture/architecture-exterior-editorial.jpg\" \n              alt=\"Grèce Spatial Living Ensembles — Architectural Harmony and Integrated Millwork\" \n              loading=\"lazy\" \n              decoding=\"async\" \n              width=\"1600\" \n              height=\"900\" \n            />",
+      "src": "assets/generated/architecture/architecture-exterior-editorial.jpg",
+      "alt": "Grèce Spatial Living Ensembles — Architectural Harmony and Integrated Millwork",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/architecture/architecture-exterior-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 816648,
+        "ok": true
+      }
+    },
+    {
+      "file": "about.html",
+      "tag": "<img \n                src=\"assets/generated/materials/material-stone-texture.jpg\" \n                alt=\"Bespoke Sculptural Joinery and Interior Hardware Detail\" \n                loading=\"lazy\" \n                decoding=\"async\" \n                width=\"720\" \n                height=\"960\" \n              />",
+      "src": "assets/generated/materials/material-stone-texture.jpg",
+      "alt": "Bespoke Sculptural Joinery and Interior Hardware Detail",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/materials/material-stone-texture.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 829095,
+        "ok": true
+      }
+    },
+    {
+      "file": "about.html",
+      "tag": "<img \n                src=\"assets/generated/architecture/architecture-light-staircase.jpg\" \n                alt=\"Interior Architecture and Natural Light Study\" \n                loading=\"lazy\" \n                decoding=\"async\" \n                width=\"720\" \n                height=\"960\" \n              />",
+      "src": "assets/generated/architecture/architecture-light-staircase.jpg",
+      "alt": "Interior Architecture and Natural Light Study",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/architecture/architecture-light-staircase.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 639878,
+        "ok": true
+      }
+    },
+    {
+      "file": "about.html",
+      "tag": "poster=\"assets/generated/hero/hero-architecture-desktop.jpg\"",
+      "src": "assets/generated/hero/hero-architecture-desktop.jpg",
+      "alt": "",
+      "type": "poster",
+      "check": {
+        "url": "assets/generated/hero/hero-architecture-desktop.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 768083,
+        "ok": true
+      }
+    },
+    {
+      "file": "contact-us.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"120\" \n            height=\"25\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "contact-us.html",
+      "tag": "<img \n                      id=\"navWorkPreviewImg\" \n                      src=\"assets/generated/hospitality/hospitality-editorial.jpg\" \n                      alt=\"Hospitality Architecture Preview\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"180\" \n                      height=\"135\" \n                    />",
+      "src": "assets/generated/hospitality/hospitality-editorial.jpg",
+      "alt": "Hospitality Architecture Preview",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hospitality/hospitality-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 822511,
+        "ok": true
+      }
+    },
+    {
+      "file": "contact-us.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" alt=\"Grèce\" width=\"110\" height=\"23\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "contact-us.html",
+      "tag": "<img \n                src=\"assets/generated/hospitality/hospitality-editorial.jpg\" \n                alt=\"Choreography of natural light, stone, and bespoke joinery — GRÈCE Hospitality Architecture\"\n                loading=\"lazy\"\n                width=\"600\"\n                height=\"375\"\n              />",
+      "src": "assets/generated/hospitality/hospitality-editorial.jpg",
+      "alt": "Choreography of natural light, stone, and bespoke joinery — GRÈCE Hospitality Architecture",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hospitality/hospitality-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 822511,
+        "ok": true
+      }
+    },
+    {
+      "file": "contact.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"120\" \n            height=\"25\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "contact.html",
+      "tag": "<img \n                      id=\"navWorkPreviewImg\" \n                      src=\"assets/generated/hospitality/hospitality-editorial.jpg\" \n                      alt=\"Hospitality Architecture Preview\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"180\" \n                      height=\"135\" \n                    />",
+      "src": "assets/generated/hospitality/hospitality-editorial.jpg",
+      "alt": "Hospitality Architecture Preview",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hospitality/hospitality-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 822511,
+        "ok": true
+      }
+    },
+    {
+      "file": "contact.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" alt=\"Grèce\" width=\"110\" height=\"23\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "contact.html",
+      "tag": "<img \n                src=\"assets/generated/hospitality/hospitality-editorial.jpg\" \n                alt=\"Choreography of natural light, stone, and bespoke joinery — GRÈCE Hospitality Architecture\"\n                loading=\"lazy\"\n                width=\"600\"\n                height=\"375\"\n              />",
+      "src": "assets/generated/hospitality/hospitality-editorial.jpg",
+      "alt": "Choreography of natural light, stone, and bespoke joinery — GRÈCE Hospitality Architecture",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hospitality/hospitality-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 822511,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"120\" \n            height=\"25\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                      id=\"navWorkPreviewImg\" \n                      src=\"assets/generated/hospitality/hospitality-editorial.jpg\" \n                      alt=\"Hospitality Architecture Preview\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"180\" \n                      height=\"135\" \n                    />",
+      "src": "assets/generated/hospitality/hospitality-editorial.jpg",
+      "alt": "Hospitality Architecture Preview",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hospitality/hospitality-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 822511,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/account.svg\" alt=\"\" width=\"18\" height=\"18\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/account.svg",
+      "alt": "",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/account.svg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/bag.svg\" alt=\"\" width=\"18\" height=\"18\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/bag.svg",
+      "alt": "",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/bag.svg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"110\" \n            height=\"23\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n              class=\"hero-fallback-img\" \n              src=\"assets/generated/hero/hero-architecture-desktop.jpg\" \n              alt=\"GRÈCE Architecture & Interior Design Sanctuary — Natural Light and Stone Colonnade\"\n              loading=\"eager\"\n              fetchpriority=\"high\"\n            />",
+      "src": "assets/generated/hero/hero-architecture-desktop.jpg",
+      "alt": "GRÈCE Architecture & Interior Design Sanctuary — Natural Light and Stone Colonnade",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hero/hero-architecture-desktop.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 768083,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                src=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/product-pic1.webp\" \n                alt=\"GRÈCE Bespoke Products — Sculptural Joinery and Interior Craft\" \n                loading=\"lazy\" \n                decoding=\"async\" \n                width=\"800\" \n                height=\"1066\" \n              />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/product-pic1.webp",
+      "alt": "GRÈCE Bespoke Products — Sculptural Joinery and Interior Craft",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/product-pic1.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                src=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/collections-pic2.webp\" \n                alt=\"GRÈCE Collections — Architectural Furniture and Spatial Living\" \n                loading=\"lazy\" \n                decoding=\"async\" \n                width=\"960\" \n                height=\"1200\" \n              />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/collections-pic2.webp",
+      "alt": "GRÈCE Collections — Architectural Furniture and Spatial Living",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/collections-pic2.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                src=\"assets/generated/materials/material-stone-texture.jpg\" \n                alt=\"GRÈCE Materiality — Travertine, Fluted Oak, Aged Bronze, and Textured Plaster\" \n                loading=\"lazy\" \n                decoding=\"async\" \n                width=\"800\" \n                height=\"800\" \n              />",
+      "src": "assets/generated/materials/material-stone-texture.jpg",
+      "alt": "GRÈCE Materiality — Travertine, Fluted Oak, Aged Bronze, and Textured Plaster",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/materials/material-stone-texture.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 829095,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg\" \n                  alt=\"All Saints Goa — Monolithic Dining and Bar Architecture with Stone Arches\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"1600\" \n                  height=\"900\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg",
+      "alt": "All Saints Goa — Monolithic Dining and Bar Architecture with Stone Arches",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                      src=\"https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05614-1-scaled.jpg\" \n                      alt=\"All Saints — Rhythm of Monolithic Stone Arches\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"900\" \n                      height=\"675\" \n                    />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05614-1-scaled.jpg",
+      "alt": "All Saints — Rhythm of Monolithic Stone Arches",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05614-1-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                      src=\"https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05635-1-scaled.jpg\" \n                      alt=\"All Saints — Ambient Bronze Luminaire and Booth Detailing\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"900\" \n                      height=\"675\" \n                    />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05635-1-scaled.jpg",
+      "alt": "All Saints — Ambient Bronze Luminaire and Booth Detailing",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05635-1-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg\" \n                  alt=\"Aahii Dining Room — Panoramic Spatial Architecture by Grèce\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"1600\" \n                  height=\"900\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg",
+      "alt": "Aahii Dining Room — Panoramic Spatial Architecture by Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                      src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-17-2.jpg\" \n                      alt=\"Aahii Ceiling Woodwork Installation — Timber Lattice\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"900\" \n                      height=\"675\" \n                    />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-17-2.jpg",
+      "alt": "Aahii Ceiling Woodwork Installation — Timber Lattice",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-17-2.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                      src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-18-2.jpg\" \n                      alt=\"Aahii Banquette Booth Architecture\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"900\" \n                      height=\"675\" \n                    />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-18-2.jpg",
+      "alt": "Aahii Banquette Booth Architecture",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-18-2.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg\" \n                  alt=\"Rasoi Fine Dining Sanctuary — Monolithic Stone and Vaulted Architecture\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"1600\" \n                  height=\"900\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg",
+      "alt": "Rasoi Fine Dining Sanctuary — Monolithic Stone and Vaulted Architecture",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                      src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-27-scaled.jpg\" \n                      alt=\"Rasoi Vaulted Masonry and Plinth Detailing\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"900\" \n                      height=\"675\" \n                    />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-27-scaled.jpg",
+      "alt": "Rasoi Vaulted Masonry and Plinth Detailing",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-27-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                      src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-22.jpg\" \n                      alt=\"Rasoi Atmospheric Illumination and Stone Plinth\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"900\" \n                      height=\"675\" \n                    />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-22.jpg",
+      "alt": "Rasoi Atmospheric Illumination and Stone Plinth",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-22.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                  src=\"assets/generated/hospitality/hospitality-editorial.jpg\" \n                  alt=\"GRÈCE Hospitality Architecture — Resorts and Dining\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"600\" \n                  height=\"800\" \n                />",
+      "src": "assets/generated/hospitality/hospitality-editorial.jpg",
+      "alt": "GRÈCE Hospitality Architecture — Resorts and Dining",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hospitality/hospitality-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 822511,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                  src=\"assets/generated/interiors/interior-sculptural-living.jpg\" \n                  alt=\"GRÈCE Private Living — Contemporary Residences\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"600\" \n                  height=\"800\" \n                />",
+      "src": "assets/generated/interiors/interior-sculptural-living.jpg",
+      "alt": "GRÈCE Private Living — Contemporary Residences",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/interiors/interior-sculptural-living.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 732545,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg\" \n                  alt=\"GRÈCE Business Premises — Commercial Ateliers\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"600\" \n                  height=\"800\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg",
+      "alt": "GRÈCE Business Premises — Commercial Ateliers",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                  src=\"assets/generated/architecture/architecture-light-staircase.jpg\" \n                  alt=\"GRÈCE Spatial Volume Study — Natural Daylight and Monolithic Stone Staircase\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"800\" \n                  height=\"1066\" \n                />",
+      "src": "assets/generated/architecture/architecture-light-staircase.jpg",
+      "alt": "GRÈCE Spatial Volume Study — Natural Daylight and Monolithic Stone Staircase",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/architecture/architecture-light-staircase.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 639878,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/photography-pix2.webp\" \n                  alt=\"GRÈCE Culinary and Hospitality Photography\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"800\" \n                  height=\"1000\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/photography-pix2.webp",
+      "alt": "GRÈCE Culinary and Hospitality Photography",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/photography-pix2.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Hertz-Perfume.jpg\" \n                  alt=\"GRÈCE Luxury Product and Bottle Photography\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"800\" \n                  height=\"1066\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Hertz-Perfume.jpg",
+      "alt": "GRÈCE Luxury Product and Bottle Photography",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Hertz-Perfume.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/torii-nest-armchair.webp\" \n                  alt=\"Torii Nest Armchair — Architectural Seating Edition\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"800\" \n                  height=\"800\"\n                  class=\"plinth-artwork-img\"\n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/torii-nest-armchair.webp",
+      "alt": "Torii Nest Armchair — Architectural Seating Edition",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/torii-nest-armchair.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/wall-lamp.webp\" \n                  alt=\"Aurelia Eclipse Chandelier — Sculptural Luminaire\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"600\" \n                  height=\"600\"\n                  class=\"plinth-artwork-img\"\n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/wall-lamp.webp",
+      "alt": "Aurelia Eclipse Chandelier — Sculptural Luminaire",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/wall-lamp.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/garden-blossom-cabinet.webp\" \n                  alt=\"Garden Blossom Cabinet — Spatial Cabinetry Edition\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"600\" \n                  height=\"600\"\n                  class=\"plinth-artwork-img\"\n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/garden-blossom-cabinet.webp",
+      "alt": "Garden Blossom Cabinet — Spatial Cabinetry Edition",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/garden-blossom-cabinet.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img \n                src=\"assets/generated/studio/studio-atmosphere-concept.jpg\" \n                alt=\"GRÈCE Studio Atelier Atmosphere — Material Samples, Joinery Models, and Architectural Drawings\" \n                loading=\"lazy\" \n                decoding=\"async\" \n                width=\"1200\" \n                height=\"900\" \n              />",
+      "src": "assets/generated/studio/studio-atmosphere-concept.jpg",
+      "alt": "GRÈCE Studio Atelier Atmosphere — Material Samples, Joinery Models, and Architectural Drawings",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/studio/studio-atmosphere-concept.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 808110,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/facebook.svg\" alt=\"Facebook\" width=\"18\" height=\"18\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/facebook.svg",
+      "alt": "Facebook",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/facebook.svg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/instagram.svg\" alt=\"Instagram\" width=\"18\" height=\"18\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/instagram.svg",
+      "alt": "Instagram",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/instagram.svg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/linkedin.svg\" alt=\"LinkedIn\" width=\"18\" height=\"18\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/linkedin.svg",
+      "alt": "LinkedIn",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/linkedin.svg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/pintrest.svg\" alt=\"Pinterest\" width=\"18\" height=\"18\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/pintrest.svg",
+      "alt": "Pinterest",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/pintrest.svg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/youtube.svg\" alt=\"YouTube\" width=\"18\" height=\"18\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/youtube.svg",
+      "alt": "YouTube",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/youtube.svg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "<source media=\"(max-width: 768px)\" srcset=\"assets/generated/hero/hero-architecture-mobile.jpg\" />",
+      "src": "assets/generated/hero/hero-architecture-mobile.jpg",
+      "alt": "",
+      "type": "source",
+      "check": {
+        "url": "assets/generated/hero/hero-architecture-mobile.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 1014472,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "poster=\"assets/generated/hero/hero-architecture-desktop.jpg\"",
+      "src": "assets/generated/hero/hero-architecture-desktop.jpg",
+      "alt": "",
+      "type": "poster",
+      "check": {
+        "url": "assets/generated/hero/hero-architecture-desktop.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 768083,
+        "ok": true
+      }
+    },
+    {
+      "file": "index.html",
+      "tag": "poster=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/product-pic1.webp\"",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/product-pic1.webp",
+      "alt": "",
+      "type": "poster",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/product-pic1.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-business-premises.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"120\" \n            height=\"25\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-business-premises.html",
+      "tag": "<img \n                      id=\"navWorkPreviewImg\" \n                      src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg\" \n                      alt=\"Business Premises Preview\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"180\" \n                      height=\"135\" \n                    />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg",
+      "alt": "Business Premises Preview",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-business-premises.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" alt=\"Grèce\" width=\"110\" height=\"23\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-business-premises.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg\" \n            alt=\"Grèce Commercial Architecture — Executive Atelier with Sculptural Concrete and Natural Light\"\n            fetchpriority=\"high\"\n            decoding=\"async\"\n            width=\"1600\"\n            height=\"900\"\n          />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg",
+      "alt": "Grèce Commercial Architecture — Executive Atelier with Sculptural Concrete and Natural Light",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-business-premises.html",
+      "tag": "<img \n              src=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/business-pic3.webp\" \n              alt=\"Grèce Business Premises — Architectural Studio Overview\" \n              loading=\"lazy\" \n              decoding=\"async\" \n              width=\"1600\" \n              height=\"800\" \n            />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/business-pic3.webp",
+      "alt": "Grèce Business Premises — Architectural Studio Overview",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/business-pic3.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-business-premises.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/hospitality-pic2.webp\" \n                  alt=\"Executive Meeting Chamber with Monolithic Stone Surfaces\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"950\" \n                  height=\"720\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/hospitality-pic2.webp",
+      "alt": "Executive Meeting Chamber with Monolithic Stone Surfaces",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/hospitality-pic2.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-business-premises.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/product-pic1.webp\" \n                  alt=\"Custom Atelier Joinery Detail & Hardware\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"650\" \n                  height=\"820\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/product-pic1.webp",
+      "alt": "Custom Atelier Joinery Detail & Hardware",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/product-pic1.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-business-premises.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg\" \n                  alt=\"Reception Arrival & Architectural Volumes\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"780\" \n                  height=\"780\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg",
+      "alt": "Reception Arrival & Architectural Volumes",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Business-Premises.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-business-premises.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/business-pic3.webp\" \n                  alt=\"Private Work Pod & Acoustic Alcove\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"780\" \n                  height=\"780\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/business-pic3.webp",
+      "alt": "Private Work Pod & Acoustic Alcove",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/business-pic3.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-home.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"120\" \n            height=\"25\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-home.html",
+      "tag": "<img \n                      id=\"navWorkPreviewImg\" \n                      src=\"assets/generated/interiors/interior-sculptural-living.jpg\" \n                      alt=\"Private Living Preview\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"180\" \n                      height=\"135\" \n                    />",
+      "src": "assets/generated/interiors/interior-sculptural-living.jpg",
+      "alt": "Private Living Preview",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/interiors/interior-sculptural-living.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 732545,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-home.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" alt=\"Grèce\" width=\"110\" height=\"23\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-home.html",
+      "tag": "<img \n            src=\"assets/generated/interiors/interior-sculptural-living.jpg\" \n            alt=\"Grèce Residential Architecture — Monolithic Daylight Interior Sanctuary\"\n            fetchpriority=\"high\"\n            decoding=\"async\"\n            width=\"1600\"\n            height=\"900\"\n          />",
+      "src": "assets/generated/interiors/interior-sculptural-living.jpg",
+      "alt": "Grèce Residential Architecture — Monolithic Daylight Interior Sanctuary",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/interiors/interior-sculptural-living.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 732545,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-home.html",
+      "tag": "<img \n              src=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/home-pic-1.webp\" \n              alt=\"Private Sanctuary Living Chamber — Architectural Perspective\" \n              loading=\"lazy\" \n              decoding=\"async\" \n              width=\"1600\" \n              height=\"760\" \n            />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/home-pic-1.webp",
+      "alt": "Private Sanctuary Living Chamber — Architectural Perspective",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/home-pic-1.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-home.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/05/3-2.png\" \n                  alt=\"Minimalist Residential Chamber with Floor-to-Ceiling Windows\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"900\" \n                  height=\"675\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/05/3-2.png",
+      "alt": "Minimalist Residential Chamber with Floor-to-Ceiling Windows",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/3-2.png",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-home.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/05/6-1.png\" \n                  alt=\"Architectural Materiality and Vertical Joinery Detail\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"600\" \n                  height=\"800\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/05/6-1.png",
+      "alt": "Architectural Materiality and Vertical Joinery Detail",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/6-1.png",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-home.html",
+      "tag": "<img \n              src=\"https://www.wordofgrece.com/wp-content/uploads/2026/05/10-1.png\" \n              alt=\"Contemplative Private Lounge Chamber\" \n              loading=\"lazy\" \n              decoding=\"async\" \n              width=\"1600\" \n              height=\"760\" \n            />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/05/10-1.png",
+      "alt": "Contemplative Private Lounge Chamber",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/10-1.png",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-home.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/05/14-1.png\" \n                  alt=\"Custom Atelier Cabinetry and Architectural Joinery\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"600\" \n                  height=\"800\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/05/14-1.png",
+      "alt": "Custom Atelier Cabinetry and Architectural Joinery",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/14-1.png",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-home.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/05/19-1.png\" \n                  alt=\"Curated Private Suite with Sculptural Luminaire\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"900\" \n                  height=\"675\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/05/19-1.png",
+      "alt": "Curated Private Suite with Sculptural Luminaire",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/19-1.png",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-home.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/05/22-1.png\" \n                  alt=\"Residential Twilight Ambience and Luminaire Lighting\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"700\" \n                  height=\"700\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/05/22-1.png",
+      "alt": "Residential Twilight Ambience and Luminaire Lighting",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/22-1.png",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-home.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/05/28.jpg-1.jpeg\" \n                  alt=\"Tactile Bedroom Sanctuary and Natural Fibers\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"700\" \n                  height=\"700\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/05/28.jpg-1.jpeg",
+      "alt": "Tactile Bedroom Sanctuary and Natural Fibers",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/28.jpg-1.jpeg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"120\" \n            height=\"25\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n                      id=\"navWorkPreviewImg\" \n                      src=\"assets/generated/hospitality/hospitality-editorial.jpg\" \n                      alt=\"Hospitality Architecture Preview\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"180\" \n                      height=\"135\" \n                    />",
+      "src": "assets/generated/hospitality/hospitality-editorial.jpg",
+      "alt": "Hospitality Architecture Preview",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hospitality/hospitality-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 822511,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" alt=\"Grèce\" width=\"110\" height=\"23\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n            src=\"assets/generated/hospitality/hospitality-editorial.jpg\" \n            alt=\"Grèce Hospitality Architecture — Sculptural Stone Volumes and Ambient Light\"\n            fetchpriority=\"high\"\n            decoding=\"async\"\n            width=\"1600\"\n            height=\"900\"\n          />",
+      "src": "assets/generated/hospitality/hospitality-editorial.jpg",
+      "alt": "Grèce Hospitality Architecture — Sculptural Stone Volumes and Ambient Light",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hospitality/hospitality-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 822511,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n                src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg\" \n                alt=\"Aahii Dining Room — Panoramic Spatial Architecture by Grèce\" \n                loading=\"lazy\" \n                decoding=\"async\" \n                width=\"1600\" \n                height=\"760\" \n              />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg",
+      "alt": "Aahii Dining Room — Panoramic Spatial Architecture by Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n                    src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-17-2.jpg\" \n                    alt=\"Aahii Ceiling Woodwork Installation\" \n                    loading=\"lazy\" \n                    decoding=\"async\" \n                    width=\"900\" \n                    height=\"675\" \n                  />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-17-2.jpg",
+      "alt": "Aahii Ceiling Woodwork Installation",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-17-2.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n                    src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-18-2.jpg\" \n                    alt=\"Aahii Intimate Banquette Booth Architecture\" \n                    loading=\"lazy\" \n                    decoding=\"async\" \n                    width=\"600\" \n                    height=\"800\" \n                  />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-18-2.jpg",
+      "alt": "Aahii Intimate Banquette Booth Architecture",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-18-2.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n                    src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-14-2.jpg\" \n                    alt=\"Aahii Custom Lighting Core Detail\" \n                    loading=\"lazy\" \n                    decoding=\"async\" \n                    width=\"600\" \n                    height=\"800\" \n                  />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-14-2.jpg",
+      "alt": "Aahii Custom Lighting Core Detail",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-14-2.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n                    src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-23-1.jpg\" \n                    alt=\"Aahii Central Dining Vista\" \n                    loading=\"lazy\" \n                    decoding=\"async\" \n                    width=\"900\" \n                    height=\"675\" \n                  />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-23-1.jpg",
+      "alt": "Aahii Central Dining Vista",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-23-1.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n                src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg\" \n                alt=\"All Saints Interior — Sculptural Dining Volumes by Grèce\" \n                loading=\"lazy\" \n                decoding=\"async\" \n                width=\"1600\" \n                height=\"760\" \n              />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg",
+      "alt": "All Saints Interior — Sculptural Dining Volumes by Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n                    src=\"https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05614-1-scaled.jpg\" \n                    alt=\"All Saints Ambient Light and Arched Corridor\" \n                    loading=\"lazy\" \n                    decoding=\"async\" \n                    width=\"700\" \n                    height=\"700\" \n                  />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05614-1-scaled.jpg",
+      "alt": "All Saints Ambient Light and Arched Corridor",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05614-1-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n                    src=\"https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05626-1-scaled.jpg\" \n                    alt=\"All Saints Tactile Bar Counter and Stone Joinery\" \n                    loading=\"lazy\" \n                    decoding=\"async\" \n                    width=\"700\" \n                    height=\"700\" \n                  />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05626-1-scaled.jpg",
+      "alt": "All Saints Tactile Bar Counter and Stone Joinery",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05626-1-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n                    src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg\" \n                    alt=\"Rasoi Dining Room Architecture\" \n                    loading=\"lazy\" \n                    decoding=\"async\" \n                    width=\"900\" \n                    height=\"675\" \n                  />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg",
+      "alt": "Rasoi Dining Room Architecture",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "interior-design-hospitality.html",
+      "tag": "<img \n                    src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-22.jpg\" \n                    alt=\"Rasoi Material and Lighting Detail\" \n                    loading=\"lazy\" \n                    decoding=\"async\" \n                    width=\"600\" \n                    height=\"800\" \n                  />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-22.jpg",
+      "alt": "Rasoi Material and Lighting Detail",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-22.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "lifestyle.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"120\" \n            height=\"25\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "lifestyle.html",
+      "tag": "<img \n                      id=\"navWorkPreviewImg\" \n                      src=\"assets/generated/interiors/interior-sculptural-living.jpg\" \n                      alt=\"Residential Sanctuary Preview\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"180\" \n                      height=\"135\" \n                    />",
+      "src": "assets/generated/interiors/interior-sculptural-living.jpg",
+      "alt": "Residential Sanctuary Preview",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/interiors/interior-sculptural-living.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 732545,
+        "ok": true
+      }
+    },
+    {
+      "file": "lifestyle.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" alt=\"Grèce\" width=\"110\" height=\"23\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "lifestyle.html",
+      "tag": "<img \n            src=\"assets/generated/architecture/architecture-exterior-editorial.jpg\" \n            alt=\"Grèce Architecture & Spatial Design — Monolithic Daylight Interior Sanctuary\"\n            fetchpriority=\"high\"\n            decoding=\"async\"\n            width=\"1600\"\n            height=\"900\"\n          />",
+      "src": "assets/generated/architecture/architecture-exterior-editorial.jpg",
+      "alt": "Grèce Architecture & Spatial Design — Monolithic Daylight Interior Sanctuary",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/architecture/architecture-exterior-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 816648,
+        "ok": true
+      }
+    },
+    {
+      "file": "lifestyle.html",
+      "tag": "<img \n              src=\"https://www.wordofgrece.com/wp-content/uploads/2025/12/home-pic-1.webp\" \n              alt=\"Private Sanctuary Living Chamber — Architectural Perspective\" \n              loading=\"lazy\" \n              decoding=\"async\" \n              width=\"1600\" \n              height=\"760\" \n            />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/12/home-pic-1.webp",
+      "alt": "Private Sanctuary Living Chamber — Architectural Perspective",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/12/home-pic-1.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "lifestyle.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/05/3-2.png\" \n                  alt=\"Minimalist Residential Chamber with Floor-to-Ceiling Windows\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"900\" \n                  height=\"675\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/05/3-2.png",
+      "alt": "Minimalist Residential Chamber with Floor-to-Ceiling Windows",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/3-2.png",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "lifestyle.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/05/6-1.png\" \n                  alt=\"Architectural Materiality and Vertical Joinery Detail\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"600\" \n                  height=\"800\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/05/6-1.png",
+      "alt": "Architectural Materiality and Vertical Joinery Detail",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/6-1.png",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "lifestyle.html",
+      "tag": "<img \n              src=\"https://www.wordofgrece.com/wp-content/uploads/2026/05/10-1.png\" \n              alt=\"Contemplative Private Lounge Chamber\" \n              loading=\"lazy\" \n              decoding=\"async\" \n              width=\"1600\" \n              height=\"760\" \n            />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/05/10-1.png",
+      "alt": "Contemplative Private Lounge Chamber",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/05/10-1.png",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-aahii.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"120\" \n            height=\"25\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-aahii.html",
+      "tag": "<img \n                      id=\"navWorkPreviewImg\" \n                      src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg\" \n                      alt=\"Aahii Preview\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"180\" \n                      height=\"135\" \n                    />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg",
+      "alt": "Aahii Preview",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-aahii.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" alt=\"Grèce\" width=\"110\" height=\"23\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-aahii.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg\" \n            alt=\"Aahii Dining Room — Panoramic Spatial Architecture by Grèce\"\n            fetchpriority=\"high\"\n            decoding=\"async\"\n            width=\"1600\"\n            height=\"900\"\n          />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg",
+      "alt": "Aahii Dining Room — Panoramic Spatial Architecture by Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/IMG_0924-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-aahii.html",
+      "tag": "<img \n              src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-17-2.jpg\" \n              alt=\"Sculptural Timber Ceiling Lattice framing ambient lighting grids\" \n              loading=\"lazy\" \n              decoding=\"async\" \n              width=\"1600\" \n              height=\"800\" \n            />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-17-2.jpg",
+      "alt": "Sculptural Timber Ceiling Lattice framing ambient lighting grids",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-17-2.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-aahii.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-10-2.jpg\" \n                  alt=\"Aahii Intimate Banquette Dining Booth\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"950\" \n                  height=\"720\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-10-2.jpg",
+      "alt": "Aahii Intimate Banquette Dining Booth",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-10-2.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-aahii.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-15-2.jpg\" \n                  alt=\"Atmospheric Illumination and Column Reveal\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"650\" \n                  height=\"820\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-15-2.jpg",
+      "alt": "Atmospheric Illumination and Column Reveal",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-15-2.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-aahii.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-23.jpg\" \n                  alt=\"Aahii Custom Dining Chairs & Joinery\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"780\" \n                  height=\"780\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-23.jpg",
+      "alt": "Aahii Custom Dining Chairs & Joinery",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-23.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-aahii.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-05-2.jpg\" \n                  alt=\"Aahii Bar and Dining Counter Composition\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"780\" \n                  height=\"780\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-05-2.jpg",
+      "alt": "Aahii Bar and Dining Counter Composition",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/YnotUS_aahii-05-2.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-all-saints.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"120\" \n            height=\"25\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-all-saints.html",
+      "tag": "<img \n                      id=\"navWorkPreviewImg\" \n                      src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg\" \n                      alt=\"All Saints Preview\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"180\" \n                      height=\"135\" \n                    />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg",
+      "alt": "All Saints Preview",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-all-saints.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" alt=\"Grèce\" width=\"110\" height=\"23\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-all-saints.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg\" \n            alt=\"All Saints — Monolithic Arched Dining Hall & Bar Counter by Grèce\"\n            fetchpriority=\"high\"\n            decoding=\"async\"\n            width=\"1600\"\n            height=\"900\"\n          />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg",
+      "alt": "All Saints — Monolithic Arched Dining Hall & Bar Counter by Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/DSC05623-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-all-saints.html",
+      "tag": "<img \n              src=\"https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05614-1-scaled.jpg\" \n              alt=\"All Saints Arched Hallway & Spatial Portals\" \n              loading=\"lazy\" \n              decoding=\"async\" \n              width=\"1600\" \n              height=\"800\" \n            />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05614-1-scaled.jpg",
+      "alt": "All Saints Arched Hallway & Spatial Portals",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05614-1-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-all-saints.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05626-1-scaled.jpg\" \n                  alt=\"All Saints Sculptural Curved Bar Counter\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"950\" \n                  height=\"720\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05626-1-scaled.jpg",
+      "alt": "All Saints Sculptural Curved Bar Counter",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05626-1-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-all-saints.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05631-1-scaled.jpg\" \n                  alt=\"Vaulted Ceiling Detail with Ambient Sconce Glow\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"650\" \n                  height=\"820\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05631-1-scaled.jpg",
+      "alt": "Vaulted Ceiling Detail with Ambient Sconce Glow",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05631-1-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-all-saints.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05635-1-scaled.jpg\" \n                  alt=\"All Saints Private Dining Alcove\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"780\" \n                  height=\"780\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05635-1-scaled.jpg",
+      "alt": "All Saints Private Dining Alcove",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05635-1-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-all-saints.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05610-1-scaled.jpg\" \n                  alt=\"All Saints Architectural Joinery and Stone Intersection\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"780\" \n                  height=\"780\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05610-1-scaled.jpg",
+      "alt": "All Saints Architectural Joinery and Stone Intersection",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2025/06/DSC05610-1-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-rasoi.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"120\" \n            height=\"25\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-rasoi.html",
+      "tag": "<img \n                      id=\"navWorkPreviewImg\" \n                      src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg\" \n                      alt=\"Rasoi Preview\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"180\" \n                      height=\"135\" \n                    />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg",
+      "alt": "Rasoi Preview",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-rasoi.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" alt=\"Grèce\" width=\"110\" height=\"23\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-rasoi.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg\" \n            alt=\"Rasoi Heritage Dining Architecture — Warm Amber Illumination & Woodcraft by Grèce\"\n            fetchpriority=\"high\"\n            decoding=\"async\"\n            width=\"1600\"\n            height=\"900\"\n          />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg",
+      "alt": "Rasoi Heritage Dining Architecture — Warm Amber Illumination & Woodcraft by Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-rasoi.html",
+      "tag": "<img \n              src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-27-scaled.jpg\" \n              alt=\"Rasoi Dining Room Architecture with Terracotta Arches\" \n              loading=\"lazy\" \n              decoding=\"async\" \n              width=\"1600\" \n              height=\"800\" \n            />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-27-scaled.jpg",
+      "alt": "Rasoi Dining Room Architecture with Terracotta Arches",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-27-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-rasoi.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-22.jpg\" \n                  alt=\"Custom Smoked Teakwood Banquettes & Dining Setup\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"950\" \n                  height=\"720\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-22.jpg",
+      "alt": "Custom Smoked Teakwood Banquettes & Dining Setup",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-22.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-rasoi.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-19-scaled.jpg\" \n                  alt=\"Architectural Plaster Niche and Warm Sconce\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"650\" \n                  height=\"820\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-19-scaled.jpg",
+      "alt": "Architectural Plaster Niche and Warm Sconce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-19-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-rasoi.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-16-scaled.jpg\" \n                  alt=\"Atmospheric Table Illumination & Brass Details\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"780\" \n                  height=\"780\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-16-scaled.jpg",
+      "alt": "Atmospheric Table Illumination & Brass Details",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-16-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "project-rasoi.html",
+      "tag": "<img \n                  src=\"https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-8-scaled.jpg\" \n                  alt=\"Rasoi Dining Detail & Natural Grain Tables\" \n                  loading=\"lazy\" \n                  decoding=\"async\" \n                  width=\"780\" \n                  height=\"780\" \n                />",
+      "src": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-8-scaled.jpg",
+      "alt": "Rasoi Dining Detail & Natural Grain Tables",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/uploads/2026/02/Piyushmacrography-8-scaled.jpg",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "word-by-grece.html",
+      "tag": "<img \n            src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" \n            alt=\"Grèce\" \n            class=\"brand-logo\" \n            width=\"120\" \n            height=\"25\" \n          />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "word-by-grece.html",
+      "tag": "<img \n                      id=\"navWorkPreviewImg\" \n                      src=\"assets/generated/hospitality/hospitality-editorial.jpg\" \n                      alt=\"Hospitality Architecture Preview\" \n                      loading=\"lazy\" \n                      decoding=\"async\" \n                      width=\"180\" \n                      height=\"135\" \n                    />",
+      "src": "assets/generated/hospitality/hospitality-editorial.jpg",
+      "alt": "Hospitality Architecture Preview",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hospitality/hospitality-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 822511,
+        "ok": true
+      }
+    },
+    {
+      "file": "word-by-grece.html",
+      "tag": "<img src=\"https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp\" alt=\"Grèce\" width=\"110\" height=\"23\" />",
+      "src": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+      "alt": "Grèce",
+      "type": "img",
+      "check": {
+        "url": "https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    },
+    {
+      "file": "word-by-grece.html",
+      "tag": "<img \n              src=\"assets/generated/hero/hero-architecture-desktop.jpg\" \n              alt=\"Grèce Studio Architectural Interior Study — Monolithic Volumes and Ambient Light\"\n              fetchpriority=\"high\"\n              decoding=\"async\"\n              width=\"1600\"\n              height=\"685\"\n            />",
+      "src": "assets/generated/hero/hero-architecture-desktop.jpg",
+      "alt": "Grèce Studio Architectural Interior Study — Monolithic Volumes and Ambient Light",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/hero/hero-architecture-desktop.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 768083,
+        "ok": true
+      }
+    },
+    {
+      "file": "word-by-grece.html",
+      "tag": "<img \n              src=\"assets/generated/architecture/architecture-exterior-editorial.jpg\" \n              alt=\"Grèce Spatial Living Ensembles — Architectural Harmony and Integrated Millwork\" \n              loading=\"lazy\" \n              decoding=\"async\" \n              width=\"1600\" \n              height=\"900\" \n            />",
+      "src": "assets/generated/architecture/architecture-exterior-editorial.jpg",
+      "alt": "Grèce Spatial Living Ensembles — Architectural Harmony and Integrated Millwork",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/architecture/architecture-exterior-editorial.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 816648,
+        "ok": true
+      }
+    },
+    {
+      "file": "word-by-grece.html",
+      "tag": "<img \n                src=\"assets/generated/materials/material-stone-texture.jpg\" \n                alt=\"Bespoke Sculptural Joinery and Interior Hardware Detail\" \n                loading=\"lazy\" \n                decoding=\"async\" \n                width=\"720\" \n                height=\"960\" \n              />",
+      "src": "assets/generated/materials/material-stone-texture.jpg",
+      "alt": "Bespoke Sculptural Joinery and Interior Hardware Detail",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/materials/material-stone-texture.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 829095,
+        "ok": true
+      }
+    },
+    {
+      "file": "word-by-grece.html",
+      "tag": "<img \n                src=\"assets/generated/architecture/architecture-light-staircase.jpg\" \n                alt=\"Interior Architecture and Natural Light Study\" \n                loading=\"lazy\" \n                decoding=\"async\" \n                width=\"720\" \n                height=\"960\" \n              />",
+      "src": "assets/generated/architecture/architecture-light-staircase.jpg",
+      "alt": "Interior Architecture and Natural Light Study",
+      "type": "img",
+      "check": {
+        "url": "assets/generated/architecture/architecture-light-staircase.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 639878,
+        "ok": true
+      }
+    },
+    {
+      "file": "word-by-grece.html",
+      "tag": "poster=\"assets/generated/hero/hero-architecture-desktop.jpg\"",
+      "src": "assets/generated/hero/hero-architecture-desktop.jpg",
+      "alt": "",
+      "type": "poster",
+      "check": {
+        "url": "assets/generated/hero/hero-architecture-desktop.jpg",
+        "isRemote": false,
+        "status": 200,
+        "size": 768083,
+        "ok": true
+      }
+    },
+    {
+      "file": "css/design-system.css",
+      "tag": "url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Pinyon+Script&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap')",
+      "src": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Pinyon+Script&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap",
+      "alt": "",
+      "type": "css-file-bg",
+      "check": {
+        "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Pinyon+Script&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap",
+        "isRemote": true,
+        "status": 200,
+        "ok": true
+      }
+    }
+  ]
+}

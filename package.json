@@ -1,0 +1,11 @@
+{
+  "name": "grece-global-design-system",
+  "version": "1.0.0",
+  "description": "GRÈCE — Global Premium Design System & Cinematic Media System",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node -c js/main.js"
+  }
+}

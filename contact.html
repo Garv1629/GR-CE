@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Inquiry &amp; Contact — GRÈCE Architecture &amp; Interior Design Studio</title>
+  <meta name="description" content="Initiate an architectural, hospitality, or residential inquiry with GRÈCE. Connect with our New Delhi / NCR atelier for bespoke spatial commissions." />
+  <link rel="canonical" href="https://www.wordofgrece.com/contact-us" />
+  
+  <link rel="icon" href="https://www.wordofgrece.com/wp-content/uploads/2024/12/favicon.webp" sizes="32x32" />
+  <link rel="apple-touch-icon" href="https://www.wordofgrece.com/wp-content/uploads/2024/12/favicon.webp" />
+
+  <!-- Google Fonts: Editorial High-Contrast Serif & Clean Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" 
+    rel="stylesheet" 
+  />
+
+  <!-- Global Design System & Luxury Editorial Theme Tokens -->
+  <link rel="stylesheet" href="css/design-system.css" />
+  <link rel="stylesheet" href="css/theme-override.css" />
+</head>
+<body class="contact-page-main">
+
+  <!-- ========================================================================
+       GLOBAL HEADER & NAV (GRÈCE EDITORIAL SYSTEM)
+       ======================================================================== -->
+  <header id="mainHeader" class="mainHeader is-scrolled">
+    <div class="header-inner">
+      <div class="header-brand">
+        <a href="index.html" class="brand-link" aria-label="Grèce — Return to Home">
+          <img 
+            src="https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp" 
+            alt="Grèce" 
+            class="brand-logo" 
+            width="120" 
+            height="25" 
+          />
+        </a>
+      </div>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown">
+            <a href="lifestyle.html" class="nav-link" aria-haspopup="true" aria-expanded="false" id="workNavBtn">
+              Work
+              <svg class="dropdown-chevron" width="8" height="6" viewBox="0 0 8 6" fill="none" aria-hidden="true">
+                <path d="M1 1.5L4 4.5L7 1.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+            </a>
+            <div class="editorial-dropdown" role="region" aria-label="Work Submenu">
+              <div class="dropdown-inner">
+                <div class="dropdown-column">
+                  <span class="dropdown-category">Disciplines</span>
+                  <ul class="dropdown-links">
+                    <li><a href="interior-design-hospitality.html">Hospitality</a></li>
+                    <li><a href="interior-design-home.html">Private Living (Home)</a></li>
+                    <li><a href="interior-design-business-premises.html">Business Premises</a></li>
+                    <li><a href="https://www.wordofgrece.com/gallery/products">Photography</a></li>
+                    <li><a href="lifestyle.html">All Work</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown-preview">
+                  <div class="preview-media-frame">
+                    <img 
+                      id="navWorkPreviewImg" 
+                      src="assets/generated/hospitality/hospitality-editorial.jpg" 
+                      alt="Hospitality Architecture Preview" 
+                      loading="lazy" 
+                      decoding="async" 
+                      width="180" 
+                      height="135" 
+                    />
+                  </div>
+                  <div class="preview-meta">
+                    <span class="preview-tag micro-label" style="font-size: 0.65rem;">Active Discipline</span>
+                    <span class="preview-title" id="navWorkPreviewTitle">Hospitality Architecture</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="interior-design-hospitality.html" class="nav-link">Hospitality</a>
+          </li>
+          <li class="nav-item">
+            <a href="interior-design-home.html" class="nav-link">Private Living</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.wordofgrece.com/brand-design/" class="nav-link">Brand Design</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.wordofgrece.com/products/" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="word-by-grece.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact-us.html" class="nav-link active" aria-current="page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://www.wordofgrece.com/book-an-appointment" class="inquiry-cta">Book an Appointment</a>
+        <button type="button" class="menu-toggle" id="menuToggleBtn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="mobileNavModal">
+          <span class="menu-label">Menu</span>
+          <span class="burger-bars" aria-hidden="true">
+            <span class="bar-line"></span>
+            <span class="bar-line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Modal -->
+  <div class="mobile-nav-modal" id="mobileNavModal" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+    <div class="mobile-nav-content">
+      <div class="mobile-nav-header">
+        <a href="index.html" class="brand-link">
+          <img src="https://www.wordofgrece.com/wp-content/themes/grece/images/grece-logo.webp" alt="Grèce" width="110" height="23" />
+        </a>
+        <button type="button" class="mobile-nav-close" id="mobileNavCloseBtn" aria-label="Close Navigation Menu">✕</button>
+      </div>
+      <nav class="mobile-nav-body">
+        <ul class="mobile-nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="interior-design-hospitality.html">Hospitality Architecture</a></li>
+          <li><a href="interior-design-home.html">Private Living (Home)</a></li>
+          <li><a href="interior-design-business-premises.html">Business Premises</a></li>
+          <li><a href="https://www.wordofgrece.com/brand-design/">Brand Design</a></li>
+          <li><a href="https://www.wordofgrece.com/products/">Products</a></li>
+          <li><a href="word-by-grece.html">About Studio</a></li>
+          <li><a href="contact-us.html" class="active">Contact &amp; Inquiries</a></li>
+          <li><a href="https://www.wordofgrece.com/book-an-appointment" class="mobile-cta-link">Book an Appointment</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-nav-footer">
+        <div class="mobile-nav-socials">
+          <a href="https://www.instagram.com/wordofgrece/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.facebook.com/greceinteriors/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       EDITORIAL CONTACT & INQUIRY EXPERIENCE
+       ======================================================================== -->
+  <main id="main-content" class="contact-section-wrapper" role="main">
+    <div class="contact-inner-container">
+      
+      <!-- Architectural Header Banner -->
+      <header class="contact-editorial-header">
+        <div class="contact-kicker-bar">
+          <span class="contact-chapter-tag">04 // COMMISSIONS &amp; DIALOGUE</span>
+          <span class="contact-atelier-location">New Delhi / NCR &bull; Available Worldwide</span>
+        </div>
+        <h1 class="contact-display-title">Initiate a Spatial Dialogue.</h1>
+        <p class="contact-narrative-intro">
+          We collaborate with discerning hoteliers, private patrons, and commercial visionaries to realize environments of restrained luxury, tectonic honesty, and tailored craftsmanship. Complete our inquiry protocol below or arrange a private studio consultation.
+        </p>
+      </header>
+
+      <!-- Main Two-Column Editorial Composition -->
+      <div class="contact-editorial-grid">
+        
+        <!-- Left Column: Studio Coordinates & Protocol -->
+        <aside class="contact-info-col" aria-label="Studio Information">
+          <div class="contact-info-block">
+            <span class="info-block-label">Atelier Location</span>
+            <div class="info-block-value">
+              GRÈCE Architecture &amp; Interiors<br />
+              New Delhi / NCR, India<br />
+              <span class="text-subtle">Spatial commissions undertaken across India &amp; internationally</span>
+            </div>
+          </div>
+
+          <div class="contact-info-block">
+            <span class="info-block-label">Direct Digital Channels</span>
+            <div class="info-block-value">
+              <div class="contact-social-links">
+                <a href="https://www.instagram.com/wordofgrece/" target="_blank" rel="noopener noreferrer" class="social-channel-link">
+                  <span>Instagram</span>
+                  <span class="social-handle">@wordofgrece</span>
+                </a>
+                <a href="https://www.facebook.com/greceinteriors/" target="_blank" rel="noopener noreferrer" class="social-channel-link">
+                  <span>Facebook</span>
+                  <span class="social-handle">Grèce Interiors</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info-block">
+            <span class="info-block-label">Studio Engagements</span>
+            <div class="info-block-value">
+              <a href="https://www.wordofgrece.com/book-an-appointment" class="appointment-card-link">
+                <div class="appointment-card-title">Book an In-Person Consultation</div>
+                <div class="appointment-card-desc">Schedule a dedicated dialogue with our principal spatial design team to discuss programmatic scope, material pallets, and project timelines.</div>
+                <div class="appointment-card-arrow">&rarr; Reserve appointment on wordofgrece.com</div>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-info-block">
+            <span class="info-block-label">Studio Monograph</span>
+            <div class="info-block-value">
+              <p class="monograph-excerpt">
+                Read about our material ethos, daylight choreography, and historical spatial precedents in the <a href="word-by-grece.html" class="monograph-link">Word by Grèce studio journal</a>.
+              </p>
+            </div>
+          </div>
+
+          <!-- Authentic Studio Photographic Vignette -->
+          <div class="contact-info-block contact-studio-vignette">
+            <div class="media-frame">
+              <img 
+                src="assets/generated/hospitality/hospitality-editorial.jpg" 
+                alt="Choreography of natural light, stone, and bespoke joinery — GRÈCE Hospitality Architecture"
+                loading="lazy"
+                width="600"
+                height="375"
+              />
+            </div>
+            <div class="vignette-caption">
+              <span class="vignette-tag">Spatial Precedent</span>
+              <span class="vignette-note">Choreography of natural light &amp; bespoke millwork</span>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Right Column: Minimal Architectural Inquiry Form -->
+        <section class="contact-form-col" aria-labelledby="form-heading">
+          <div class="form-header-bar">
+            <h2 id="form-heading" class="form-section-title">Project Inquiry Protocol</h2>
+            <span class="form-required-legend"><span class="required-star">*</span> Indicates required field</span>
+          </div>
+
+          <!-- Status Banners for Accessibility & Validation Feedback -->
+          <div id="formStatusBanner" class="form-status-banner" role="alert" aria-live="assertive" tabindex="-1"></div>
+
+          <!-- The Architectural Form -->
+          <form id="greceInquiryForm" class="grece-inquiry-form" method="POST" action="/api/inquiry" novalidate>
+            
+            <!-- Honeypot Anti-Spam (invisible to humans) -->
+            <div class="honeypot-wrap" aria-hidden="true">
+              <label for="honeypot-website">Do not fill this field if you are human</label>
+              <input type="text" id="honeypot-website" name="website" tabindex="-1" autocomplete="off" />
+            </div>
+
+            <!-- Row 1: Full Name & Email -->
+            <div class="form-grid-row">
+              <div class="form-control-group" id="group-fullName">
+                <label for="input-fullName" class="form-label">
+                  Full Name <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="input-fullName" 
+                  name="fullName" 
+                  class="form-input" 
+                  placeholder="e.g. Alistair Vance" 
+                  required 
+                  minlength="2" 
+                  maxlength="100" 
+                  autocomplete="name"
+                  aria-required="true"
+                  aria-describedby="error-fullName"
+                />
+                <span class="field-error-message" id="error-fullName" role="alert">Please provide your full name (minimum 2 characters).</span>
+              </div>
+
+              <div class="form-control-group" id="group-email">
+                <label for="input-email" class="form-label">
+                  Email Address <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="email" 
+                  id="input-email" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="e.g. alistair@atelier.com" 
+                  required 
+                  maxlength="120" 
+                  autocomplete="email"
+                  aria-required="true"
+                  aria-describedby="error-email"
+                />
+                <span class="field-error-message" id="error-email" role="alert">Please provide a valid email address.</span>
+              </div>
+            </div>
+
+            <!-- Row 2: Telephone & Discipline -->
+            <div class="form-grid-row">
+              <div class="form-control-group" id="group-phone">
+                <label for="input-phone" class="form-label">
+                  Telephone / WhatsApp <span class="field-optional">(Optional)</span>
+                </label>
+                <input 
+                  type="tel" 
+                  id="input-phone" 
+                  name="phone" 
+                  class="form-input" 
+                  placeholder="+91 / Country Code &amp; Number" 
+                  maxlength="30" 
+                  autocomplete="tel"
+                  aria-describedby="error-phone"
+                />
+                <span class="field-error-message" id="error-phone" role="alert">Please provide a valid telephone number.</span>
+              </div>
+
+              <div class="form-control-group" id="group-discipline">
+                <label for="select-discipline" class="form-label">
+                  Spatial Discipline <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <select id="select-discipline" name="discipline" class="form-select" required aria-required="true" aria-describedby="error-discipline">
+                  <option value="" disabled selected>Select Commission Discipline</option>
+                  <option value="Hospitality">Hospitality (Hotel, Boutique Resort, Restaurant)</option>
+                  <option value="Residential">Residential Architecture &amp; Private Living</option>
+                  <option value="Business Premises">Business Premises &amp; Commercial Workspaces</option>
+                  <option value="Furniture &amp; Objects">Furniture Editions &amp; Bespoke Objects</option>
+                  <option value="Spatial Brand Identity">Spatial Brand Identity &amp; Creative Direction</option>
+                </select>
+                <span class="field-error-message" id="error-discipline" role="alert">Please select an architectural or design discipline.</span>
+              </div>
+            </div>
+
+            <!-- Row 3: Location & Project Stage -->
+            <div class="form-grid-row">
+              <div class="form-control-group" id="group-location">
+                <label for="input-location" class="form-label">
+                  Project Location / City <span class="field-optional">(Optional)</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="input-location" 
+                  name="location" 
+                  class="form-input" 
+                  placeholder="e.g. New Delhi, Goa, London, Dubai" 
+                  maxlength="100"
+                />
+              </div>
+
+              <div class="form-control-group" id="group-stage">
+                <label for="select-stage" class="form-label">
+                  Project Phase <span class="field-optional">(Optional)</span>
+                </label>
+                <select id="select-stage" name="stage" class="form-select">
+                  <option value="" selected>Current Project Phase</option>
+                  <option value="Concept &amp; Feasibility">Concept &amp; Feasibility</option>
+                  <option value="Design Planning">Design Planning &amp; Schematic</option>
+                  <option value="Under Construction">Under Construction / Groundbreaking</option>
+                  <option value="Bespoke Procurement">Procurement &amp; Custom Millwork</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Row 4: Project Scope Textarea -->
+            <div class="form-control-group" id="group-message">
+              <label for="textarea-message" class="form-label">
+                Project Scope &amp; Vision <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <textarea 
+                id="textarea-message" 
+                name="message" 
+                class="form-textarea" 
+                rows="5" 
+                placeholder="Share relevant details: approximate scale (sq. ft.), aesthetic aspirations, architectural context, or target completion horizon..." 
+                required 
+                minlength="10" 
+                maxlength="3000"
+                aria-required="true"
+                aria-describedby="error-message"
+              ></textarea>
+              <span class="field-error-message" id="error-message" role="alert">Please provide details regarding your inquiry (minimum 10 characters).</span>
+            </div>
+
+            <!-- Submission Action Row -->
+            <div class="form-action-row">
+              <button type="submit" id="btnSubmitInquiry" class="btn-editorial-submit" aria-live="polite">
+                <span class="btn-spinner" aria-hidden="true"></span>
+                <span class="btn-label-text">Transmit Inquiry</span>
+              </button>
+              <p class="form-privacy-note">
+                Your architectural inquiry is handled with strict atelier discretion. We do not distribute client information.
+              </p>
+            </div>
+          </form>
+
+          <!-- Confirmed Success State Display Card -->
+          <div id="formSuccessCard" class="form-success-card" role="region" aria-label="Inquiry Confirmed">
+            <div class="success-check-badge" aria-hidden="true">&#10003;</div>
+            <h3 class="success-card-title">Inquiry Formally Registered</h3>
+            <p class="success-card-lead">
+              Thank you for initiating dialogue with GRÈCE. Our principal architectural team has registered your commission scope and will review feasibility within 1–2 business days.
+            </p>
+            <div class="success-reference-box">
+              <span class="reference-label">Commission Reference Number</span>
+              <span class="reference-code" id="successReferenceCode">GRECE-2026-0000</span>
+            </div>
+            <div>
+              <button type="button" id="btnResetInquiry" class="btn-secondary-reset">
+                Transmit Another Inquiry
+              </button>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer id="footer" class="footer" role="contentinfo">
+    <div class="container">
+      <div style="text-align: center;">
+        <a href="https://www.wordofgrece.com/book-an-appointment" class="signIn accountBt">Book an Appointment</a>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: clamp(2rem, 4vw, 4rem);">
+        <div class="footerLink">
+          <h2>OUR COMPANY</h2>
+          <ul>
+            <li><a href="word-by-grece.html">About Studio</a></li>
+            <li><a href="word-by-grece.html">Values &amp; Ethos</a></li>
+            <li><a href="interior-design-hospitality.html">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footerLink">
+          <h2>DISCIPLINES</h2>
+          <ul>
+            <li><a href="interior-design-hospitality.html">Hospitality</a></li>
+            <li><a href="interior-design-home.html">Private Living</a></li>
+            <li><a href="interior-design-business-premises.html">Business Premises</a></li>
+          </ul>
+        </div>
+
+        <div class="footerLink">
+          <h2>CUSTOMER CARE &amp; INQUIRY</h2>
+          <ul>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="https://www.instagram.com/wordofgrece/" target="_blank" rel="noopener noreferrer">Instagram (@wordofgrece)</a></li>
+            <li><a href="https://www.wordofgrece.com/book-an-appointment">Schedule Appointment</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bottomLogo" style="margin-top: clamp(3rem, 6vw, 5rem); text-align: center; border-top: 1px solid rgba(243, 240, 232, 0.12); padding-top: 2rem;">
+        <span style="font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 4rem); letter-spacing: 0.25em; text-transform: uppercase; color: rgba(243, 240, 232, 0.2);">grèce</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core Scripts & Inquiry Form Handler -->
+  <script src="js/main.js"></script>
+  <script>
+    (function initContactInquiry() {
+      const form = document.getElementById('greceInquiryForm');
+      const submitBtn = document.getElementById('btnSubmitInquiry');
+      const submitLabel = submitBtn ? submitBtn.querySelector('.btn-label-text') : null;
+      const statusBanner = document.getElementById('formStatusBanner');
+      const successCard = document.getElementById('formSuccessCard');
+      const successRefCode = document.getElementById('successReferenceCode');
+      const resetBtn = document.getElementById('btnResetInquiry');
+
+      if (!form) return;
+
+      let isSubmitting = false;
+
+      const fields = {
+        fullName: {
+          input: document.getElementById('input-fullName'),
+          group: document.getElementById('group-fullName'),
+          error: document.getElementById('error-fullName'),
+          defaultError: 'Please provide your full name (minimum 2 characters).',
+          validate: (val) => val.trim().length >= 2
+        },
+        email: {
+          input: document.getElementById('input-email'),
+          group: document.getElementById('group-email'),
+          error: document.getElementById('error-email'),
+          defaultError: 'Please provide a valid email address.',
+          validate: (val) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val.trim())
+        },
+        discipline: {
+          input: document.getElementById('select-discipline'),
+          group: document.getElementById('group-discipline'),
+          error: document.getElementById('error-discipline'),
+          defaultError: 'Please select an architectural or design discipline.',
+          validate: (val) => val.trim() !== ''
+        },
+        message: {
+          input: document.getElementById('textarea-message'),
+          group: document.getElementById('group-message'),
+          error: document.getElementById('error-message'),
+          defaultError: 'Please provide details regarding your inquiry (minimum 10 characters).',
+          validate: (val) => val.trim().length >= 10
+        }
+      };
+
+      // Real-time input validation listener
+      Object.keys(fields).forEach(key => {
+        const item = fields[key];
+        if (item.input) {
+          item.input.addEventListener('input', () => {
+            if (item.group.classList.contains('has-error')) {
+              if (item.validate(item.input.value)) {
+                item.group.classList.remove('has-error');
+                item.input.removeAttribute('aria-invalid');
+                if (item.error) item.error.textContent = item.defaultError;
+              }
+            }
+          });
+          item.input.addEventListener('blur', () => {
+            if (!item.validate(item.input.value)) {
+              item.group.classList.add('has-error');
+              item.input.setAttribute('aria-invalid', 'true');
+            } else {
+              item.group.classList.remove('has-error');
+              item.input.removeAttribute('aria-invalid');
+              if (item.error) item.error.textContent = item.defaultError;
+            }
+          });
+        }
+      });
+
+      // Submit listener
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        // Prevent concurrent double-clicks
+        if (isSubmitting) return;
+
+        // 1. Client-Side Validation
+        let hasError = false;
+        let firstInvalid = null;
+
+        Object.keys(fields).forEach(key => {
+          const item = fields[key];
+          const isValid = item.validate(item.input.value);
+          if (!isValid) {
+            item.group.classList.add('has-error');
+            item.input.setAttribute('aria-invalid', 'true');
+            hasError = true;
+            if (!firstInvalid) firstInvalid = item.input;
+          } else {
+            item.group.classList.remove('has-error');
+            item.input.removeAttribute('aria-invalid');
+          }
+        });
+
+        if (hasError) {
+          statusBanner.className = 'form-status-banner is-error';
+          statusBanner.textContent = 'Please correct the highlighted fields before submitting.';
+          statusBanner.focus();
+          if (firstInvalid) firstInvalid.focus();
+          return;
+        }
+
+        // 2. Prepare Payload
+        const formData = new FormData(form);
+        const payload = {
+          fullName: formData.get('fullName'),
+          email: formData.get('email'),
+          phone: formData.get('phone') || '',
+          discipline: formData.get('discipline'),
+          location: formData.get('location') || '',
+          stage: formData.get('stage') || '',
+          message: formData.get('message'),
+          website: formData.get('website') || '' // honeypot
+        };
+
+        // 3. UI Loading State & Lock
+        isSubmitting = true;
+        submitBtn.disabled = true;
+        submitBtn.classList.add('is-submitting');
+        if (submitLabel) submitLabel.textContent = 'Transmitting...';
+        statusBanner.className = 'form-status-banner';
+        statusBanner.textContent = '';
+
+        try {
+          const response = await fetch('/api/inquiry', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+            },
+            body: JSON.stringify(payload)
+          });
+
+          const data = await response.json();
+
+          if (response.ok && data.success) {
+            // Success handling: Hide form, display confirmed reference ID
+            form.style.display = 'none';
+            successCard.classList.add('is-visible');
+            if (successRefCode) {
+              successRefCode.textContent = data.referenceId || 'GRECE-2026-CONFIRMED';
+            }
+            statusBanner.className = 'form-status-banner';
+            statusBanner.textContent = '';
+            successCard.scrollIntoView({ behavior: 'smooth' });
+          } else {
+            // Server rejected (400 validation, honeypot, etc.)
+            isSubmitting = false;
+            submitBtn.disabled = false;
+            submitBtn.classList.remove('is-submitting');
+            if (submitLabel) submitLabel.textContent = 'Transmit Inquiry';
+
+            statusBanner.className = 'form-status-banner is-error';
+            statusBanner.textContent = data.message || 'Submission was rejected by the server.';
+            statusBanner.focus();
+
+            if (data.errors) {
+              Object.keys(data.errors).forEach(fieldKey => {
+                if (fields[fieldKey]) {
+                  fields[fieldKey].group.classList.add('has-error');
+                  fields[fieldKey].input.setAttribute('aria-invalid', 'true');
+                  if (fields[fieldKey].error) {
+                    fields[fieldKey].error.textContent = data.errors[fieldKey];
+                  }
+                }
+              });
+            }
+          }
+        } catch (networkErr) {
+          console.error('Inquiry transmission network error:', networkErr);
+          isSubmitting = false;
+          submitBtn.disabled = false;
+          submitBtn.classList.remove('is-submitting');
+          if (submitLabel) submitLabel.textContent = 'Transmit Inquiry';
+
+          statusBanner.className = 'form-status-banner is-error';
+          statusBanner.textContent = 'Unable to reach the studio server. Please verify your connection or try again shortly.';
+          statusBanner.focus();
+        }
+      });
+
+      // Reset / Transmit Another Inquiry
+      if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+          form.reset();
+          isSubmitting = false;
+          submitBtn.disabled = false;
+          submitBtn.classList.remove('is-submitting');
+          if (submitLabel) submitLabel.textContent = 'Transmit Inquiry';
+
+          Object.keys(fields).forEach(key => {
+            const item = fields[key];
+            item.group.classList.remove('has-error');
+            item.input.removeAttribute('aria-invalid');
+            if (item.error) item.error.textContent = item.defaultError;
+          });
+
+          form.style.display = 'block';
+          successCard.classList.remove('is-visible');
+          statusBanner.className = 'form-status-banner';
+          statusBanner.textContent = '';
+          form.scrollIntoView({ behavior: 'smooth' });
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
