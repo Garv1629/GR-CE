@@ -1,6 +1,8 @@
 node_modules/
+public/
 *.log
 button_audit.json
 button_audit_inventory.json
 verification_results.json
 diag.js
+get_status.js
