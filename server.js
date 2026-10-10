@@ -303,6 +303,15 @@ const server = http.createServer(async (req, res) => {
   }
 
   let filePath = path.join(__dirname, reqPath);
+
+  // If requesting /wp-content/..., alias to assets/remote/wp-content/...
+  if (reqPath.startsWith('/wp-content/')) {
+    const remotePath = path.join(__dirname, 'assets', 'remote', reqPath);
+    if (fs.existsSync(remotePath)) {
+      filePath = remotePath;
+    }
+  }
+
   let ext = path.extname(filePath).toLowerCase();
 
   // If no extension, check if an html file exists
@@ -312,6 +321,45 @@ const server = http.createServer(async (req, res) => {
   }
 
   const contentType = MIME_TYPES[ext] || 'application/octet-stream';
+
+  // Video Streaming with HTTP 206 Partial Content
+  if (ext === '.mp4') {
+    fs.stat(filePath, (err, stats) => {
+      if (err) {
+        res.writeHead(404, { 'Content-Type': 'text/plain' });
+        return res.end('404 Video Not Found');
+      }
+
+      const range = req.headers.range;
+      if (!range) {
+        res.writeHead(200, {
+          'Content-Length': stats.size,
+          'Content-Type': 'video/mp4',
+          'Accept-Ranges': 'bytes',
+          'Access-Control-Allow-Origin': '*',
+          'Cross-Origin-Resource-Policy': 'cross-origin'
+        });
+        fs.createReadStream(filePath).pipe(res);
+        return;
+      }
+
+      const parts = range.replace(/bytes=/, "").split("-");
+      const start = parseInt(parts[0], 10);
+      const end = parts[1] ? parseInt(parts[1], 10) : stats.size - 1;
+      const chunksize = (end - start) + 1;
+
+      res.writeHead(206, {
+        'Content-Range': `bytes ${start}-${end}/${stats.size}`,
+        'Accept-Ranges': 'bytes',
+        'Content-Length': chunksize,
+        'Content-Type': 'video/mp4',
+        'Access-Control-Allow-Origin': '*',
+        'Cross-Origin-Resource-Policy': 'cross-origin'
+      });
+      fs.createReadStream(filePath, { start, end }).pipe(res);
+    });
+    return;
+  }
 
   fs.readFile(filePath, (err, content) => {
     if (err) {
@@ -326,6 +374,8 @@ const server = http.createServer(async (req, res) => {
       res.writeHead(200, {
         'Content-Type': contentType,
         'Cache-Control': 'no-cache',
+        'Access-Control-Allow-Origin': '*',
+        'Cross-Origin-Resource-Policy': 'cross-origin'
       });
       res.end(content, 'utf-8');
     }

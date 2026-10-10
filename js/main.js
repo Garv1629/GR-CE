@@ -5,7 +5,13 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Header Scroll Detection
+  // 1. Accessibility & Motion Preference Query
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!prefersReducedMotion) {
+    document.documentElement.classList.add('js-motion');
+  }
+
+  // 1b. Header Scroll Detection (Permanent Liquid Glass Capsule Navbar)
   const header = document.getElementById('mainHeader') || document.querySelector('.header');
   if (header) {
     const handleScroll = () => {
@@ -17,10 +23,106 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     window.addEventListener('scroll', handleScroll, { passive: true });
     handleScroll();
+
+    // 1c. Apple-Inspired Liquid Glass Dynamic Specular Sheen (Mouse Tracking)
+    if (window.matchMedia('(pointer: fine)').matches && !prefersReducedMotion) {
+      let rafId = null;
+      header.addEventListener('mousemove', (e) => {
+        if (rafId) return;
+        rafId = requestAnimationFrame(() => {
+          const rect = header.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          header.style.setProperty('--mouse-x', `${x}px`);
+          header.style.setProperty('--mouse-y', `${y}px`);
+          rafId = null;
+        });
+      }, { passive: true });
+
+      header.addEventListener('mouseleave', () => {
+        header.style.removeProperty('--mouse-x');
+        header.style.removeProperty('--mouse-y');
+      });
+    }
   }
 
-  // 2. Reduced Motion Query
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // 1d. Automatic Active Navigation Indicator
+  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+  const navItems = document.querySelectorAll('.nav-list .nav-item');
+  navItems.forEach(item => {
+    const link = item.querySelector('.nav-link');
+    if (!link) return;
+    const href = link.getAttribute('href');
+    if (!href) return;
+
+    const hrefPath = href.split('#')[0];
+    if (hrefPath && hrefPath === currentPath) {
+      item.classList.add('active');
+    }
+  });
+
+  // 1e. Smooth Anchor Navigation with Persistent Floating Navbar Height Compensation
+  const navAnchorLinks = document.querySelectorAll('a[href^="#"]');
+  navAnchorLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      const hash = link.getAttribute('href');
+      if (!hash || hash === '#' || hash === 'javascript:void(0)') return;
+
+      const targetId = hash.substring(1);
+      let targetElement = document.getElementById(targetId);
+
+      // Support semantic section aliases
+      if (!targetElement && targetId === 'products') {
+        targetElement = document.getElementById('services');
+      }
+      if (!targetElement && targetId === 'brand-design') {
+        targetElement = document.getElementById('branDedign');
+      }
+
+      if (targetElement) {
+        e.preventDefault();
+        const headerEl = document.getElementById('mainHeader') || document.querySelector('.header');
+        const headerHeight = headerEl ? headerEl.offsetHeight : 64;
+        const navOffset = headerHeight + 36; // Account for floating capsule top margin + breathing room
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - navOffset;
+
+        window.scrollTo({
+          top: Math.max(0, offsetPosition),
+          behavior: prefersReducedMotion ? 'auto' : 'smooth'
+        });
+
+        if (window.history && window.history.pushState) {
+          window.history.pushState(null, null, hash);
+        }
+      }
+    });
+  });
+
+  // Handle initial page load with anchor hash in URL (e.g. index.html#products)
+  if (window.location.hash) {
+    const initialHash = window.location.hash.substring(1);
+    let initialTarget = document.getElementById(initialHash);
+    if (!initialTarget && initialHash === 'products') {
+      initialTarget = document.getElementById('services');
+    }
+    if (!initialTarget && initialHash === 'brand-design') {
+      initialTarget = document.getElementById('branDedign');
+    }
+    if (initialTarget) {
+      setTimeout(() => {
+        const headerEl = document.getElementById('mainHeader') || document.querySelector('.header');
+        const headerHeight = headerEl ? headerEl.offsetHeight : 64;
+        const navOffset = headerHeight + 36;
+        const elementPosition = initialTarget.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - navOffset;
+        window.scrollTo({
+          top: Math.max(0, offsetPosition),
+          behavior: prefersReducedMotion ? 'auto' : 'smooth'
+        });
+      }, 150);
+    }
+  }
 
   // 3. Hero Video Setup with Fallback, Interactive Toggle & Scroll Cue
   const heroVideo = document.getElementById('player');
@@ -367,13 +469,22 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // 9. Architectural Commission Inquiry Form Universal Handler
-  const inquiryForms = document.querySelectorAll('form[action="/api/inquiry"], #greceInquiryForm, #homepageInquiryForm');
+  const inquiryForms = document.querySelectorAll('#homepageInquiryForm, form[action="/api/inquiry"]:not(#greceInquiryForm)');
   inquiryForms.forEach(form => {
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const statusBanner = form.parentElement.querySelector('.form-status-banner') || form.querySelector('.form-status-banner');
+
+      let statusBanner = form.querySelector('.form-status-banner') || form.parentElement.querySelector('.form-status-banner');
+      if (!statusBanner) {
+        statusBanner = document.createElement('div');
+        statusBanner.className = 'form-status-banner';
+        statusBanner.style.display = 'none';
+        form.insertBefore(statusBanner, form.lastElementChild);
+      }
+
       const submitBtn = form.querySelector('button[type="submit"]');
-      const originalBtnText = submitBtn ? submitBtn.innerHTML : '';
+      const textEl = submitBtn ? (submitBtn.querySelector('.text') || submitBtn.querySelector('.btn-label-text') || submitBtn) : null;
+      const originalBtnText = textEl ? textEl.textContent.trim() : 'Transmit Inquiry';
 
       // Clear previous banner
       if (statusBanner) {
@@ -429,10 +540,11 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      // Button loading state
+      // Button loading state without corrupting DOM/SVG arrows
       if (submitBtn) {
         submitBtn.disabled = true;
-        submitBtn.innerHTML = '<span>Transmitting Inquiry...</span>';
+        submitBtn.classList.add('is-submitting');
+        if (textEl) textEl.textContent = 'Transmitting...';
       }
 
       try {
@@ -454,7 +566,8 @@ document.addEventListener('DOMContentLoaded', () => {
           if (statusBanner) {
             statusBanner.className = 'form-status-banner status-error';
             statusBanner.style.display = 'block';
-            statusBanner.textContent = result.message || 'Error transmitting inquiry. Please reach out directly.';
+            const errMsg = (typeof result.message === 'string' && result.message) ? result.message : 'Error transmitting inquiry. Please reach out directly.';
+            statusBanner.textContent = errMsg;
           }
         }
       } catch (err) {
@@ -466,9 +579,160 @@ document.addEventListener('DOMContentLoaded', () => {
       } finally {
         if (submitBtn) {
           submitBtn.disabled = false;
-          submitBtn.innerHTML = originalBtnText;
+          submitBtn.classList.remove('is-submitting');
+          if (textEl) textEl.textContent = originalBtnText;
         }
       }
     });
   });
+
+  // 10. Hero Cinematic Entrance Sequence (Staggered Editorial Reveal)
+  const heroBanner = document.getElementById('banner');
+  if (heroBanner && !prefersReducedMotion) {
+    setTimeout(() => {
+      document.documentElement.classList.add('hero-entered');
+    }, 60);
+  } else {
+    document.documentElement.classList.add('hero-entered');
+  }
+
+  // 11. Universal Cinematic Scroll Reveal Observer
+  if ('IntersectionObserver' in window && !prefersReducedMotion) {
+    const autoRevealSelectors = [
+      '.witness-statement-headline',
+      '.witness-lead-paragraph',
+      '.witness-metrics-row',
+      '.witness-card-wrapper',
+      '.monograph-entry-header',
+      '.monograph-visual-stage',
+      '.monograph-spec-strip',
+      '.services-editorial-header',
+      '.services-capabilities-index',
+      '.edition-hero-card',
+      '.editions-editorial-diptych',
+      '.studio-manifesto-grid',
+      '.contact-form-col',
+      '.contact-atelier-col',
+      '.project-hero-header',
+      '.project-meta-strip',
+      '.project-master-artwork',
+      '.editorial-story-grid',
+      '.gallery-flow-item',
+      '.about-manifesto-grid',
+      '.about-triptych-section',
+      '.disciplines-editorial-list'
+    ];
+
+    const elementsToObserve = new Set();
+
+    // Collect any explicitly designated elements
+    document.querySelectorAll('.reveal-on-scroll, .reveal-clip, .reveal-media, .reveal-stagger').forEach(el => {
+      elementsToObserve.add(el);
+    });
+
+    // Tag semantic containers
+    autoRevealSelectors.forEach(sel => {
+      document.querySelectorAll(sel).forEach(el => {
+        el.classList.add('reveal-on-scroll');
+        elementsToObserve.add(el);
+      });
+    });
+
+    // Mask image frame reveals
+    document.querySelectorAll('.media-frame, .ProductImg, .monograph-hero-plate, .monograph-subplate').forEach(el => {
+      el.classList.add('reveal-media');
+      elementsToObserve.add(el);
+    });
+
+    const revealObserver = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-revealed');
+          // Once revealed, keep in DOM permanently to avoid disappearing during scrolling
+          obs.unobserve(entry.target);
+        }
+      });
+    }, {
+      rootMargin: '0px 0px -40px 0px',
+      threshold: 0.08
+    });
+
+    elementsToObserve.forEach(el => revealObserver.observe(el));
+  } else {
+    // If reduced motion is requested or IntersectionObserver is unsupported, reveal all
+    document.querySelectorAll('.reveal-on-scroll, .reveal-clip, .reveal-media, .reveal-stagger').forEach(el => {
+      el.classList.add('is-revealed');
+    });
+  }
+
+  // 12. Architectural Photography Subtle Parallax Engine (Performant & Low-Amplitude)
+  if (!prefersReducedMotion && window.matchMedia('(pointer: fine)').matches) {
+    const heroMedia = document.getElementById('heroMediaFrame');
+    const parallaxImages = document.querySelectorAll(
+      '.monograph-hero-plate img, .project-master-artwork img, .about-diptych-frame-wide img, .media-frame-horizon img'
+    );
+
+    parallaxImages.forEach(img => {
+      const parent = img.parentElement;
+      if (parent) {
+        parent.classList.add('parallax-media-frame');
+      }
+    });
+
+    let parallaxTicking = false;
+
+    const onScrollParallax = () => {
+      const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+      const vh = window.innerHeight;
+
+      // 12a. Hero background video/image translation
+      if (heroMedia && scrollY < vh * 1.3) {
+        const heroOffset = scrollY * 0.15;
+        heroMedia.style.transform = `translate3d(0, ${heroOffset.toFixed(1)}px, 0)`;
+      }
+
+      // 12b. Architectural plates subtle vertical drift
+      parallaxImages.forEach(img => {
+        const rect = img.getBoundingClientRect();
+        if (rect.bottom > -100 && rect.top < vh + 100) {
+          const relativePos = (rect.top + rect.height / 2) - (vh / 2);
+          const maxShift = 24; // strictly capped at 24px
+          const shift = (relativePos / vh) * -maxShift;
+          img.style.transform = `translate3d(0, ${shift.toFixed(1)}px, 0) scale(1.045)`;
+        }
+      });
+
+      parallaxTicking = false;
+    };
+
+    window.addEventListener('scroll', () => {
+      if (!parallaxTicking) {
+        requestAnimationFrame(onScrollParallax);
+        parallaxTicking = true;
+      }
+    }, { passive: true });
+
+    onScrollParallax();
+  }
+
+  // 13. Process & Methodology Progressive Storytelling Indicator
+  const disciplinesList = document.querySelector('.disciplines-editorial-list');
+  if (disciplinesList) {
+    const disciplineItems = disciplinesList.querySelectorAll('.discipline-row-item');
+    if (disciplineItems.length && 'IntersectionObserver' in window && !prefersReducedMotion) {
+      const stepObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            disciplineItems.forEach(item => item.classList.remove('is-active-step'));
+            entry.target.classList.add('is-active-step');
+          }
+        });
+      }, {
+        rootMargin: '-25% 0px -25% 0px',
+        threshold: 0.1
+      });
+
+      disciplineItems.forEach(item => stepObserver.observe(item));
+    }
+  }
 });
