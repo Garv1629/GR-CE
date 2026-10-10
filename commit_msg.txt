@@ -1,1 +1,1 @@
-fix(deployment): add build script assembling assets to public directory for Vercel
+fix(vercel): configure outputDirectory public in vercel.json
