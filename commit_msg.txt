@@ -1,1 +1,1 @@
-fix(vercel): assemble full static bundle in build command and deploy to public directory
+fix(deployment): configure root static serving with cleanUrls and wp-content edge rewrites

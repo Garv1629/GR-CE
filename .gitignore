@@ -1,6 +1,8 @@
 node_modules/
-*.log
+public/
 build.bat
+copy_to_public.py
+*.log
 button_audit.json
 button_audit_inventory.json
 verification_results.json
