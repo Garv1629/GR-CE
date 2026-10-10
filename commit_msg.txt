@@ -1,1 +1,1 @@
-test: add css/test.json
+fix(vercel): assemble full static bundle in build command and deploy to public directory
