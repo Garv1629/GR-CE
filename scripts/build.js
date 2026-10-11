@@ -1,39 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
-const { spawnSync } = require('child_process');
 
 const rootDir = path.resolve(__dirname, '..');
 const targetDirs = [
   path.join(rootDir, 'dist'),
   path.join(rootDir, 'public')
 ];
-
-let log = `VERCEL env: ${process.env.VERCEL}\n`;
-try {
-  const gitDir = path.join(rootDir, '.git');
-  const stashFile = path.join(gitDir, 'refs', 'stash');
-  if (fs.existsSync(stashFile)) {
-    fs.unlinkSync(stashFile);
-    log += 'Removed stale .git/refs/stash\n';
-  }
-  const logsDir = path.join(gitDir, 'logs');
-  if (fs.existsSync(logsDir)) {
-    fs.rmSync(logsDir, { recursive: true, force: true });
-    log += 'Removed stale .git/logs\n';
-  }
-  const fetchRes = spawnSync('git', ['fetch', 'origin', 'main'], { encoding: 'utf8' });
-  log += `Git Fetch Status: ${fetchRes.status}\nStdout: ${fetchRes.stdout || ''}\nStderr: ${fetchRes.stderr || ''}\n`;
-
-  const rebaseRes = spawnSync('git', ['rebase', 'origin/main'], { encoding: 'utf8' });
-  log += `Git Rebase Status: ${rebaseRes.status}\nStdout: ${rebaseRes.stdout || ''}\nStderr: ${rebaseRes.stderr || ''}\n`;
-
-  const pushRes = spawnSync('git', ['push', 'origin', 'main'], { encoding: 'utf8' });
-  log += `Git Push Status: ${pushRes.status}\nStdout: ${pushRes.stdout || ''}\nStderr: ${pushRes.stderr || ''}\n`;
-} catch (err) {
-  log += `Error: ${err.message}\n`;
-}
-fs.writeFileSync(path.join(rootDir, 'git_sync_log.txt'), log, 'utf8');
 
 console.log('--- Starting Production Build for Vercel ---');
 
