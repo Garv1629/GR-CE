@@ -1,1 +1,1 @@
-fix(deployment): configure root static serving with cleanUrls and wp-content edge rewrites
+fix(deployment): remove conflicting outputDirectory and buildCommand for direct root serving
