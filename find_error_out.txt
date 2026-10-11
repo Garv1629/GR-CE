@@ -1,4 +1,0 @@
-{
-  "stdout": "Matches: [\n  '\"error\":\"iso_swr_fetch_error\"',\n  '\"error\":\"iso_swr_fetch_error\"',\n  '\"error\":\"iso_swr_fetch_error\"',\n  '\"error\":\"iso_swr_fetch_error\"',\n  '\"error\":\"iso_swr_fetch_error\"',\n  '\"error\":\"iso_swr_fetch_error\"',\n  '\"error\":\"iso_swr_fetch_error\"',\n  '\"error\":\"iso_swr_fetch_error\"',\n  '\"error\":\"iso_swr_fetch_error\"',\n  '\"error\":\"iso_swr_fetch_error\"'\n]\nBuild matches: null\n",
-  "stderr": ""
-}

@@ -1,4 +1,0 @@
-{
-  "root_test": "",
-  "public_test": ""
-}

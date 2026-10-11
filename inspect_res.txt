@@ -1,4 +1,0 @@
-{
-  "status": null,
-  "error": "spawnSync C:\\windows\\system32\\cmd.exe ENOENT"
-}
