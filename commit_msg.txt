@@ -1,1 +1,0 @@
-fix: sync production build script with static assets and cleanup
