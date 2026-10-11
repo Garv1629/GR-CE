@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Word by Grèce — Architecture, Spatial Design & Atelier Monograph</title>
+  <meta name="description" content="Discover the studio monograph and architectural philosophy of Grèce: material honesty, daylight choreography, and bespoke furniture editions." />
+  <link rel="canonical" href="https://www.wordofgrece.com/word-by-grece" />
+  
+  <link rel="icon" href="assets/remote/wp-content/uploads/2024/12/favicon.webp" sizes="32x32" />
+  <link rel="apple-touch-icon" href="assets/remote/wp-content/uploads/2024/12/favicon.webp" />
+
+  <!-- Google Fonts: Editorial High-Contrast Serif & Clean Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" 
+    rel="stylesheet" 
+  />
+
+  <!-- Global Design System & Luxury Editorial Theme Tokens -->
+  <link rel="stylesheet" href="css/design-system.css" />
+  <link rel="stylesheet" href="css/theme-override.css" />
+</head>
+<body class="about-page-main">
+
+  <!-- ========================================================================
+       GLOBAL HEADER & NAV (GRÈCE EDITORIAL SYSTEM)
+       ======================================================================== -->
+  <header id="mainHeader" class="mainHeader is-scrolled">
+    <div class="header-inner">
+      <div class="header-brand">
+        <a href="index.html" class="brand-link" aria-label="Grèce — Return to Home">
+          <img 
+            src="assets/remote/wp-content/themes/grece/images/grece-logo.webp" 
+            alt="Grèce" 
+            class="brand-logo" 
+            width="120" 
+            height="25" 
+          />
+        </a>
+      </div>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown">
+            <a href="lifestyle.html" class="nav-link" aria-haspopup="true" aria-expanded="false" id="workNavBtn">
+              Work
+              <svg class="dropdown-chevron" width="8" height="6" viewBox="0 0 8 6" fill="none" aria-hidden="true">
+                <path d="M1 1.5L4 4.5L7 1.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+            </a>
+            <div class="editorial-dropdown" role="region" aria-label="Work Submenu">
+              <div class="dropdown-inner">
+                <div class="dropdown-column">
+                  <span class="dropdown-category">Disciplines</span>
+                  <ul class="dropdown-links">
+                    <li><a href="interior-design-hospitality.html">Hospitality</a></li>
+                    <li><a href="interior-design-home.html">Private Living</a></li>
+                    <li><a href="interior-design-business-premises.html">Business Premises</a></li>
+                    <li><a href="index.html#photography">Photography</a></li>
+                    <li><a href="lifestyle.html">All Work</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown-preview">
+                  <div class="preview-media-frame">
+                    <img 
+                      id="navWorkPreviewImg" 
+                      src="assets/generated/hospitality/hospitality-editorial.jpg" 
+                      alt="Hospitality Architecture Preview" 
+                      loading="lazy" 
+                      decoding="async" 
+                      width="180" 
+                      height="135" 
+                    />
+                  </div>
+                  <div class="preview-meta">
+                    <span class="preview-tag micro-label" style="font-size: 0.65rem;">Active Discipline</span>
+                    <span class="preview-title" id="navWorkPreviewTitle">Hospitality Architecture</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="interior-design-hospitality.html" class="nav-link">Hospitality</a>
+          </li>
+          <li class="nav-item">
+            <a href="interior-design-home.html" class="nav-link">Private Living</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#brand-design" class="nav-link">Brand Design</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#products" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="word-by-grece.html" class="nav-link active">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact-us.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://www.wordofgrece.com/book-an-appointment" class="animated-button animated-button--outline inquiry-cta">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">Book an Appointment</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a>
+        <button type="button" class="menu-toggle" id="menuToggleBtn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="mobileNavModal">
+          <span class="menu-label">Menu</span>
+          <span class="burger-bars" aria-hidden="true">
+            <span class="bar-line"></span>
+            <span class="bar-line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Modal -->
+  <div class="mobile-nav-modal" id="mobileNavModal" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+    <div class="mobile-nav-content">
+      <div class="mobile-nav-header">
+        <a href="index.html" class="brand-link">
+          <img src="assets/remote/wp-content/themes/grece/images/grece-logo.webp" alt="Grèce" width="110" height="23" />
+        </a>
+        <button type="button" class="mobile-nav-close" id="mobileNavCloseBtn" aria-label="Close Navigation Menu">✕</button>
+      </div>
+      <nav class="mobile-nav-body">
+        <ul class="mobile-nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lifestyle.html">All Work</a></li>
+          <li><a href="interior-design-hospitality.html">Hospitality</a></li>
+          <li><a href="interior-design-home.html">Private Living (Home)</a></li>
+          <li><a href="interior-design-business-premises.html">Business Premises</a></li>
+          <li><a href="index.html#photography">Photography</a></li>
+          <li><a href="word-by-grece.html" class="active">About Studio</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+          <li><a href="https://www.wordofgrece.com/book-an-appointment" class="animated-button animated-button--dark mobile-cta-link">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">Book an Appointment</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <main id="main-content">
+
+    <!-- ========================================================================
+         1. STUDIO OPENING MASTHEAD & IDENTITY
+         ======================================================================== -->
+    <section class="about-masthead-section" aria-label="Studio Monograph Overview">
+      <div class="about-container">
+        
+        <!-- Breadcrumb / Monograph Volume Tracker -->
+        <div class="about-breadcrumbs-row" aria-label="Monograph Breadcrumbs">
+          <a href="index.html">Grèce</a>
+          <span class="breadcrumb-sep" aria-hidden="true">/</span>
+          <span>Monograph Vol. 01</span>
+          <span class="breadcrumb-sep" aria-hidden="true">/</span>
+          <span aria-current="page">Studio Essays &amp; Architectural Discourse</span>
+        </div>
+
+        <div class="about-kicker-strip">
+          <span class="about-kicker-num">01 // MONOGRAPH</span>
+          <span class="about-kicker-line" aria-hidden="true"></span>
+          <span class="about-kicker-cat">Studio Statement // New Delhi / NCR &bull; Worldwide</span>
+        </div>
+
+        <h1 class="about-display-title">
+          An Architecture, Spatial Design <em>&amp;</em> Fine Object Atelier
+        </h1>
+
+        <p class="about-display-lead">
+          Conceived at the confluence of architectural volume, material honesty, and quiet sensory atmospheres. GRÈCE crafts contemplative living environments, hospitality destinations, and numbered furniture editions that endure across generations.
+        </p>
+
+        <!-- Studio Identity Metadata Strip -->
+        <div class="about-meta-strip" role="region" aria-label="Studio Credentials">
+          <div class="about-meta-item">
+            <span class="about-meta-key">Practice</span>
+            <span class="about-meta-val">Architecture &amp; Atelier Editions</span>
+          </div>
+          <div class="about-meta-item">
+            <span class="about-meta-key">Ethos</span>
+            <span class="about-meta-val">Material Honesty &amp; Spatial Poise</span>
+          </div>
+          <div class="about-meta-item">
+            <span class="about-meta-key">Scope</span>
+            <span class="about-meta-val">Architecture, Interiors &amp; Objects</span>
+          </div>
+          <div class="about-meta-item">
+            <span class="about-meta-key">Appointments</span>
+            <span class="about-meta-val">Open for Private Commissions</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         2. MASTER STUDIO CINEMATIC STAGE (AUTHENTIC ARCHITECTURAL FILM)
+         ======================================================================== -->
+    <section class="about-stage-section" aria-label="Studio Architectural Masterplate">
+      <div class="about-container">
+        <div class="about-media-hero">
+          <video 
+            class="about-bnr-vid" 
+            id="aboutPlayer" 
+            muted 
+            loop 
+            autoplay 
+            playsinline 
+            preload="auto" 
+            poster="assets/generated/hero/hero-architecture-desktop.jpg" 
+            aria-label="GRÈCE Studio Architectural Interior Study and Ambient Light Film"
+          >
+            <source src="assets/remote/wp-content/uploads/2026/07/07-2.mp4" type="video/mp4" />
+            <img 
+              src="assets/generated/hero/hero-architecture-desktop.jpg" 
+              alt="Grèce Studio Architectural Interior Study — Monolithic Volumes and Ambient Light"
+              fetchpriority="high"
+              decoding="async"
+              width="1600"
+              height="685"
+            />
+          </video>
+          <div class="about-media-scrim" aria-hidden="true"></div>
+          
+          <div class="about-badge-tag">
+            <span class="about-badge-dot" aria-hidden="true"></span>
+            <span>Grèce Atelier Monograph // Spatial Study</span>
+          </div>
+
+          <button type="button" class="about-media-toggle-btn" id="aboutMediaToggle" aria-label="Pause background video" title="Toggle film playback">
+            <svg width="10" height="10" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+              <rect x="2" y="1.5" width="2.5" height="9" fill="currentColor" rx="0.5"/>
+              <rect x="7.5" y="1.5" width="2.5" height="9" fill="currentColor" rx="0.5"/>
+            </svg>
+            <span id="aboutToggleText">Pause Film</span>
+          </button>
+        </div>
+
+        <div class="about-stage-caption-row">
+          <span>Fig. 0.1 — Spatial Study. Shifting natural sunlight, lime-washed surfaces, and geometric poise in the atelier.</span>
+          <span>Grèce Studio Monograph // 2026 Archive</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. STUDIO MANIFESTO & DESIGN PHILOSOPHY
+         ======================================================================== -->
+    <section class="about-manifesto-section" aria-label="Design Philosophy &amp; Studio Approach">
+      <div class="about-container">
+        <div class="about-manifesto-grid">
+          
+          <aside class="manifesto-quote-block">
+            <span class="manifesto-tag">Studio Philosophy // 01</span>
+            <h2 class="manifesto-headline">
+              “Material honesty, architectural volume, <em>and</em> quiet spatial precision.”
+            </h2>
+            <p class="manifesto-subline">
+              A room should command silence before it commands conversation — sculpted by the physical gravity of mineral stone, the grain of honest timber, and the softness of natural light.
+            </p>
+          </aside>
+
+          <div class="manifesto-prose">
+            <p class="lead-dropcap">
+              At GRÈCE, architecture and furniture are conceived not as disparate disciplines, but as continuous expressions of form, daylight, and tactile materiality. We reject superficial ornamentation in favor of monolithic geometry and structural poise.
+            </p>
+            <p>
+              Every project begins with spatial acoustics and natural illumination studies. By shaping sightlines, carving deep portals, and utilizing hand-applied lime washes, our atelier eliminates reflective harshness and cultivates an enduring sanctuary for its occupants.
+            </p>
+            <p>
+              From bespoke dining halls and contemplative residences to custom luminaires and bouclé armchairs, our work embodies a seamless continuum where space and object exist in mutual reverence.
+            </p>
+            <div class="manifesto-annotation" role="note">
+              <span style="font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; display: block; margin-bottom: 0.35rem; color: var(--color-space-indigo); font-size: 0.6875rem;">Atelier Monograph Note</span>
+              Each architectural commission is approached as a site-responsive dialogue between natural daylight choreography, acoustic dampening minerals, and tailored artisan joinery.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. ATELIER PHOTOGRAPHIC NARRATIVE (CURATED TRIPTYCH)
+         ======================================================================== -->
+    <section class="about-triptych-section" aria-label="Atelier Process, Space &amp; Craftsmanship Photography">
+      <div class="about-container">
+        
+        <div class="about-triptych-header">
+          <div>
+            <span class="about-kicker-cat" style="color: var(--color-vanilla-custard); display: block; margin-bottom: 0.35rem;">Photographic Monograph</span>
+            <h2 class="about-triptych-header-title">Authentic Spaces, Matter &amp; Craftsmanship</h2>
+          </div>
+          <span class="micro-label" style="color: var(--color-text-muted);">Three Plates // Monograph Archive</span>
+        </div>
+
+        <!-- Plate 1: Dominant Architectural Landscape Vista -->
+        <div class="about-triptych-lead-frame">
+          <div class="about-diptych-frame-wide">
+            <img 
+              src="assets/generated/architecture/architecture-exterior-editorial.jpg" 
+              alt="Grèce Spatial Living Ensembles — Architectural Harmony and Integrated Millwork" 
+              loading="lazy" 
+              decoding="async" 
+              width="1600" 
+              height="900" 
+            />
+          </div>
+          <span class="about-caption">Fig. 1.0 — Spatial Living Ensembles. Harmonizing architectural partitions, bespoke joinery, and atmospheric textiles.</span>
+        </div>
+
+        <!-- Plates 2 & 3: Paired Contrast Diptych -->
+        <div class="about-triptych-paired-grid">
+          <div>
+            <div class="about-diptych-frame-tall">
+              <img 
+                src="assets/generated/materials/material-stone-texture.jpg" 
+                alt="Bespoke Sculptural Joinery and Interior Hardware Detail" 
+                loading="lazy" 
+                decoding="async" 
+                width="720" 
+                height="960" 
+              />
+            </div>
+            <span class="about-caption">Fig. 1.1 — Tactile Joinery Detail. Precision craftsmanship and hand-patinated hardware finishes.</span>
+          </div>
+
+          <div>
+            <div class="about-diptych-frame-tall">
+              <img 
+                src="assets/generated/architecture/architecture-light-staircase.jpg" 
+                alt="Interior Architecture and Natural Light Study" 
+                loading="lazy" 
+                decoding="async" 
+                width="720" 
+                height="960" 
+              />
+            </div>
+            <span class="about-caption">Fig. 1.2 — Daylight Choreography. Soft morning luminescence across textured plaster and mineral plinths.</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. CORE PRACTICE DISCIPLINES (EDITORIAL INDEX)
+         ======================================================================== -->
+    <section class="about-disciplines-section" aria-label="Core Practice Disciplines">
+      <div class="about-container">
+        
+        <div class="disciplines-header-row">
+          <div>
+            <span class="about-kicker-cat" style="color: var(--color-vanilla-custard); display: block; margin-bottom: 0.5rem;">Practice Index</span>
+            <h2 class="disciplines-header-title">Core Studio Disciplines</h2>
+          </div>
+          <a href="lifestyle.html" class="animated-button animated-button--outline atelier-btn-secondary" style="font-size: 0.75rem;">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">Explore All Work</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a>
+        </div>
+
+        <ul class="disciplines-editorial-list" role="list">
+          
+          <li class="discipline-row-item">
+            <a href="interior-design-hospitality.html" class="discipline-row-link">
+              <span class="discipline-row-num">01</span>
+              <span class="discipline-row-name">Hospitality &amp; Dining</span>
+              <span class="discipline-row-scope">Sensory dining rooms, boutique resort environments, and monolithic social sanctuaries crafted for transformative culinary journeys.</span>
+              <span class="discipline-row-arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+
+          <li class="discipline-row-item">
+            <a href="interior-design-home.html" class="discipline-row-link">
+              <span class="discipline-row-num">02</span>
+              <span class="discipline-row-name">Private Residences (Home)</span>
+              <span class="discipline-row-scope">Contemplative private residences celebrating quietude, natural daylight choreographies, and bespoke architectural millwork.</span>
+              <span class="discipline-row-arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+
+          <li class="discipline-row-item">
+            <a href="interior-design-business-premises.html" class="discipline-row-link">
+              <span class="discipline-row-num">03</span>
+              <span class="discipline-row-name">Business Premises</span>
+              <span class="discipline-row-scope">Sculptural commercial headquarters, creative ateliers, and flagship business premises designed to elevate focus and brand identity.</span>
+              <span class="discipline-row-arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+
+          <li class="discipline-row-item">
+            <a href="index.html#products" class="discipline-row-link">
+              <span class="discipline-row-num">04</span>
+              <span class="discipline-row-name">Furniture &amp; Object Editions</span>
+              <span class="discipline-row-scope">Atelier seating, sculptural luminaires, and monolithic furniture editions conceived as architectural anchors for interior elevations.</span>
+              <span class="discipline-row-arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. MATERIALITY & CRAFTSMANSHIP PALETTE
+         ======================================================================== -->
+    <section class="about-materiality-section" aria-label="Studio Material Palette">
+      <div class="about-container">
+        
+        <span class="about-kicker-cat" style="color: var(--color-vanilla-custard); display: block; margin-bottom: 0.5rem;">Authentic Matter</span>
+        <h2 style="font-family: var(--font-serif); font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 300; color: var(--color-space-indigo); margin: 0 0 1rem 0;">
+          The Tactile Palette
+        </h2>
+        <p style="font-family: var(--font-sans); font-size: 0.9375rem; color: var(--color-text-secondary); max-width: 650px; line-height: 1.7; margin: 0;">
+          Honest materials selected for their mineral authenticity, acoustic absorption, and capacity to age gracefully with dignity.
+        </p>
+
+        <div class="materiality-grid">
+          
+          <div class="material-card">
+            <span class="material-kicker">Spec 01 // Stone</span>
+            <h3 class="material-title">Honed Travertine &amp; Limestone</h3>
+            <p class="material-desc">
+              Monolithic plinths, carved bar counters, and seamless flooring establishing physical gravity and cool tactile permanence.
+            </p>
+          </div>
+
+          <div class="material-card">
+            <span class="material-kicker">Spec 02 // Plaster</span>
+            <h3 class="material-title">Hand-Troweled Lime Plaster</h3>
+            <p class="material-desc">
+              Velvety, breathable mineral surfaces that soften acoustic reverberation and capture shifting natural sunlight with delicate gradients.
+            </p>
+          </div>
+
+          <div class="material-card">
+            <span class="material-kicker">Spec 03 // Woodcraft</span>
+            <h3 class="material-title">European Oak &amp; Smoked Teak</h3>
+            <p class="material-desc">
+              Sculptural suspended ceiling lattices, tailored banquettes, and continuous grain tolerances executed with artisan millwork precision.
+            </p>
+          </div>
+
+          <div class="material-card">
+            <span class="material-kicker">Spec 04 // Metals &amp; Fibers</span>
+            <h3 class="material-title">Spun Brass &amp; Raw Linens</h3>
+            <p class="material-desc">
+              Burnished metallic reveals, ambient light halos, and textured bouclé weaves offering warm sensory comfort.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         7. COMMISSION INQUIRY COLOPHON
+         ======================================================================== -->
+    <section class="about-colophon-cta" aria-label="Consultation &amp; Commission Inquiries">
+      <div class="about-cta-container">
+        <span class="about-cta-kicker">Studio Inquiries &amp; Commissions // New Delhi / NCR &bull; Worldwide</span>
+        <h2 class="about-cta-title">Commission the Atelier</h2>
+        <p class="about-cta-lead">
+          Grèce undertakes a select number of private residential, commercial, and hospitality architectural commissions each year to preserve the intimacy, precision, and craftsmanship of every project.
+        </p>
+        <div class="about-cta-actions">
+          <a href="https://www.wordofgrece.com/book-an-appointment" class="animated-button animated-button--dark btn-editorial-solid">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">Book an Appointment</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a>
+          <a href="contact-us.html" class="animated-button animated-button--outline btn-editorial-hollow">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">Inquiry Protocol</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a>
+          <a href="lifestyle.html" class="animated-button animated-button--outline btn-editorial-hollow">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">Explore Portfolio</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       GLOBAL EDITORIAL FOOTER
+       ======================================================================== -->
+  <footer id="footer" class="footer" role="contentinfo">
+    <div class="container">
+      <div style="text-align: center;">
+        <a href="https://www.wordofgrece.com/book-an-appointment" class="signIn accountBt">Book an Appointment</a>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: clamp(2rem, 4vw, 4rem);">
+        <div class="footerLink">
+          <h2>OUR COMPANY</h2>
+          <ul>
+            <li><a href="word-by-grece.html">About Studio</a></li>
+            <li><a href="word-by-grece.html">Values &amp; Ethos</a></li>
+            <li><a href="interior-design-hospitality.html">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footerLink">
+          <h2>DISCIPLINES</h2>
+          <ul>
+            <li><a href="interior-design-hospitality.html">Hospitality</a></li>
+            <li><a href="interior-design-home.html">Private Living</a></li>
+            <li><a href="interior-design-business-premises.html">Business Premises</a></li>
+          </ul>
+        </div>
+
+        <div class="footerLink">
+          <h2>CUSTOMER CARE &amp; INQUIRY</h2>
+          <ul>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="https://www.instagram.com/wordofgrece/" target="_blank" rel="noopener noreferrer">Instagram (@wordofgrece)</a></li>
+            <li><a href="https://www.wordofgrece.com/book-an-appointment">Schedule Appointment</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bottomLogo" style="margin-top: clamp(3rem, 6vw, 5rem); text-align: center; border-top: 1px solid rgba(243, 240, 232, 0.12); padding-top: 2rem;">
+        <span style="font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 4rem); letter-spacing: 0.25em; text-transform: uppercase; color: rgba(243, 240, 232, 0.2);">grèce</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Hospitality Architecture & Immersive Dining — Grèce</title>
+  <meta name="description" content="Explore Grèce's architectural hospitality projects, sensory dining environments, and monolithic interior spaces crafted with natural stone and bespoke illumination." />
+  <link rel="canonical" href="https://www.wordofgrece.com/interior-design-hospitality/" />
+  
+  <link rel="icon" href="assets/remote/wp-content/uploads/2024/12/favicon.webp" sizes="32x32" />
+  <link rel="apple-touch-icon" href="assets/remote/wp-content/uploads/2024/12/favicon.webp" />
+
+  <!-- Google Fonts: Editorial High-Contrast Serif & Clean Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" 
+    rel="stylesheet" 
+  />
+
+  <!-- Global Design System & Luxury Editorial Theme Tokens -->
+  <link rel="stylesheet" href="css/design-system.css" />
+  <link rel="stylesheet" href="css/theme-override.css" />
+</head>
+<body class="project-detail-page">
+
+  <!-- ========================================================================
+       GLOBAL HEADER & NAV (GRÈCE EDITORIAL SYSTEM)
+       ======================================================================== -->
+  <header id="mainHeader" class="mainHeader is-scrolled">
+    <div class="header-inner">
+      <div class="header-brand">
+        <a href="index.html" class="brand-link" aria-label="Grèce — Return to Home">
+          <img 
+            src="assets/remote/wp-content/themes/grece/images/grece-logo.webp" 
+            alt="Grèce" 
+            class="brand-logo" 
+            width="120" 
+            height="25" 
+          />
+        </a>
+      </div>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown">
+            <a href="lifestyle.html" class="nav-link active" aria-haspopup="true" aria-expanded="false" id="workNavBtn">
+              Work
+              <svg class="dropdown-chevron" width="8" height="6" viewBox="0 0 8 6" fill="none" aria-hidden="true">
+                <path d="M1 1.5L4 4.5L7 1.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+            </a>
+            <div class="editorial-dropdown" role="region" aria-label="Work Submenu">
+              <div class="dropdown-inner">
+                <div class="dropdown-column">
+                  <span class="dropdown-category">Disciplines</span>
+                  <ul class="dropdown-links">
+                    <li><a href="interior-design-hospitality.html" class="active">Hospitality</a></li>
+                    <li><a href="interior-design-home.html">Private Living (Home)</a></li>
+                    <li><a href="interior-design-business-premises.html">Business Premises</a></li>
+                    <li><a href="index.html#photography">Photography</a></li>
+                    <li><a href="lifestyle.html">All Work</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown-preview">
+                  <div class="preview-media-frame">
+                    <img 
+                      id="navWorkPreviewImg" 
+                      src="assets/generated/hospitality/hospitality-editorial.jpg" 
+                      alt="Hospitality Architecture Preview" 
+                      loading="lazy" 
+                      decoding="async" 
+                      width="180" 
+                      height="135" 
+                    />
+                  </div>
+                  <div class="preview-meta">
+                    <span class="preview-tag micro-label" style="font-size: 0.65rem;">Active Discipline</span>
+                    <span class="preview-title" id="navWorkPreviewTitle">Hospitality Architecture</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="interior-design-hospitality.html" class="nav-link active">Hospitality</a>
+          </li>
+          <li class="nav-item">
+            <a href="interior-design-home.html" class="nav-link">Private Living</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#brand-design" class="nav-link">Brand Design</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#products" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="word-by-grece.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact-us.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://www.wordofgrece.com/book-an-appointment" class="animated-button animated-button--outline inquiry-cta">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">Book an Appointment</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a>
+        <button type="button" class="menu-toggle" id="menuToggleBtn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="mobileNavModal">
+          <span class="menu-label">Menu</span>
+          <span class="burger-bars" aria-hidden="true">
+            <span class="bar-line"></span>
+            <span class="bar-line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Modal -->
+  <div class="mobile-nav-modal" id="mobileNavModal" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+    <div class="mobile-nav-content">
+      <div class="mobile-nav-header">
+        <a href="index.html" class="brand-link">
+          <img src="assets/remote/wp-content/themes/grece/images/grece-logo.webp" alt="Grèce" width="110" height="23" />
+        </a>
+        <button type="button" class="mobile-nav-close" id="mobileNavCloseBtn" aria-label="Close Navigation Menu">✕</button>
+      </div>
+      <nav class="mobile-nav-body">
+        <ul class="mobile-nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lifestyle.html">Work</a></li>
+          <li><a href="interior-design-hospitality.html" class="active">Hospitality Architecture</a></li>
+          <li><a href="interior-design-home.html">Private Living (Home)</a></li>
+          <li><a href="interior-design-business-premises.html">Business Premises</a></li>
+          <li><a href="index.html#brand-design">Brand Design</a></li>
+          <li><a href="index.html#products">Products</a></li>
+          <li><a href="word-by-grece.html">About Studio</a></li>
+          <li><a href="contact-us.html">Contact &amp; Inquiries</a></li>
+          <li><a href="https://www.wordofgrece.com/book-an-appointment" class="animated-button animated-button--dark mobile-cta-link">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">Book an Appointment</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <main id="main-content">
+
+    <!-- ========================================================================
+         DISCIPLINE BREADCRUMBS & TAB SWITCHER
+         ======================================================================== -->
+    <nav class="discipline-nav-strip" aria-label="Project Discipline Switcher">
+      <div class="discipline-nav-container">
+        <div class="discipline-breadcrumbs">
+          <a href="index.html">Grèce</a>
+          <span class="breadcrumb-sep" aria-hidden="true">/</span>
+          <a href="lifestyle.html">Architecture &amp; Spatial Design</a>
+          <span class="breadcrumb-sep" aria-hidden="true">/</span>
+          <span aria-current="page">Hospitality</span>
+        </div>
+
+        <ul class="discipline-tabs" role="tablist">
+          <li><a href="interior-design-hospitality.html" class="discipline-tab-link active" aria-selected="true">Hospitality</a></li>
+          <li><a href="interior-design-home.html" class="discipline-tab-link">Home (Residential)</a></li>
+          <li><a href="interior-design-business-premises.html" class="discipline-tab-link">Business Premises</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ========================================================================
+         1. PROJECT HERO OPENING COMPOSITION
+         ======================================================================== -->
+    <section class="project-hero-section">
+      <div class="project-hero-container">
+        
+        <header class="project-hero-header">
+          <div class="project-kicker-wrap">
+            <span class="project-kicker-num">01</span>
+            <span class="project-kicker-line" aria-hidden="true"></span>
+            <span class="project-kicker-cat">Spatial Discipline // Architecture &amp; Interiors</span>
+          </div>
+          <h1 class="project-display-title">Hospitality Architecture &amp; Sensory Dining</h1>
+          <p class="project-display-lead">
+            Sensory resort environments, bespoke dining atmospheres, and monolithic interior volumes. Each project is materialized as an architectural narrative where atmospheric luminescence, raw mineral textures, and acoustic tranquility coalesce.
+          </p>
+        </header>
+
+        <!-- Verified Metadata Strip -->
+        <div class="project-meta-strip" role="region" aria-label="Project Specifications">
+          <div class="meta-col-item">
+            <span class="meta-col-key">Discipline</span>
+            <span class="meta-col-val">Hospitality &amp; Dining Architecture</span>
+          </div>
+          <div class="meta-col-item">
+            <span class="meta-col-key">Atelier</span>
+            <span class="meta-col-val">Grèce Studio</span>
+          </div>
+          <div class="meta-col-item">
+            <span class="meta-col-key">Materiality</span>
+            <span class="meta-col-val">Raw Stone, Spun Brass &amp; Hand-Hewn Timber</span>
+          </div>
+          <div class="meta-col-item">
+            <span class="meta-col-key">Scope</span>
+            <span class="meta-col-val">Spatial Architecture &amp; Custom Millwork</span>
+          </div>
+        </div>
+
+        <!-- Master Opening Artwork -->
+        <div class="project-master-artwork">
+          <img 
+            src="assets/generated/hospitality/hospitality-editorial.jpg" 
+            alt="Grèce Hospitality Architecture — Sculptural Stone Volumes and Ambient Light"
+            fetchpriority="high"
+            decoding="async"
+            width="1600"
+            height="900"
+          />
+          <span class="artwork-credit-badge">Grèce Architectural Monograph</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         2. EDITORIAL STORYTELLING & SPATIAL PHILOSOPHY
+         ======================================================================== -->
+    <section class="project-editorial-narrative-section">
+      <div class="sequence-container">
+        <div class="editorial-story-grid">
+          
+          <aside class="story-sidebar-quote">
+            <span class="story-quote-tag">Spatial Philosophy</span>
+            <blockquote class="story-quote-text">
+              “A hospitality interior must command silence before it commands conversation — sculpted by the physical gravity of stone and the warmth of indirect illumination.”
+            </blockquote>
+          </aside>
+
+          <div class="story-body-column">
+            <p>
+              In contemporary hospitality, luxury is no longer defined by ornamentation, but by sensory restraint and structural poise. Grèce approaches every restaurant, lounge, and boutique hospitality environment as a cinematic choreography of light, shadow, and proportion.
+            </p>
+            <p>
+              Our process begins with spatial acoustics and daylight studies. By carving monolithic partitions and incorporating hand-troweled mineral plaster, we eliminate reflective harshness and cultivate an intimate, protective sanctuary for patrons.
+            </p>
+            <p>
+              Custom luminaires, spun brass diffusion rings, and bespoke banquettes are tailored to the exact ergonomics of each room, turning architectural hardware into functional sculpture.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. CURATED EDITORIAL IMAGE SEQUENCING — MONOGRAPH PORTFOLIO
+         ======================================================================== -->
+    <section class="project-gallery-sequence" aria-label="Curated Architectural Photography Sequence">
+      <div class="sequence-container">
+
+        <!-- ==================== FEATURE 01: AAHII ==================== -->
+        <article class="gallery-flow-item" id="project-aahii">
+          <div style="border-bottom: 1px solid rgba(40,48,68,0.1); padding-bottom: 1.5rem; margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <span class="micro-label" style="color: var(--color-vanilla-custard); margin-bottom: 0.35rem; display: block;">Commission 01</span>
+              <h2 style="font-family: var(--font-serif); font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 300; margin: 0; color: var(--color-space-indigo);">Aahii — Sculptural Dining Architecture</h2>
+            </div>
+            <a href="project-aahii.html" class="animated-button animated-button--outline atelier-btn-secondary" style="font-size: 0.75rem;">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">View Dedicated Monograph</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a>
+          </div>
+
+          <!-- Panoramic Horizon Spatial Vista -->
+          <div class="gallery-flow-item">
+            <div class="media-frame-horizon">
+              <img 
+                src="assets/remote/wp-content/uploads/2026/02/IMG_0924-scaled.jpg" 
+                alt="Aahii Dining Room — Panoramic Spatial Architecture by Grèce" 
+                loading="lazy" 
+                decoding="async" 
+                width="1600" 
+                height="760" 
+              />
+            </div>
+            <span class="photo-caption">Fig. 1.0 — Aahii Panoramic Dining Chamber. Monolithic overhead ceiling geometry and concealed architectural illumination.</span>
+          </div>
+
+          <!-- Asymmetrical Diptych -->
+          <div class="gallery-flow-item">
+            <div class="diptych-asymmetric-grid">
+              <div>
+                <div class="media-frame-wide">
+                  <img 
+                    src="assets/remote/wp-content/uploads/2026/02/YnotUS_aahii-17-2.jpg" 
+                    alt="Aahii Ceiling Woodwork Installation" 
+                    loading="lazy" 
+                    decoding="async" 
+                    width="900" 
+                    height="675" 
+                  />
+                </div>
+                <span class="photo-caption">Fig. 1.1 — Sculptural Timber Ceiling Lattice framing ambient lighting grids.</span>
+              </div>
+
+              <div>
+                <div class="media-frame-portrait">
+                  <img 
+                    src="assets/remote/wp-content/uploads/2026/02/YnotUS_aahii-18-2.jpg" 
+                    alt="Aahii Intimate Banquette Booth Architecture" 
+                    loading="lazy" 
+                    decoding="async" 
+                    width="600" 
+                    height="800" 
+                  />
+                </div>
+                <span class="photo-caption">Fig. 1.2 — Custom curvilinear banquette seating in tactile upholstery.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Detail Diptych (Reversed) -->
+          <div class="gallery-flow-item">
+            <div class="diptych-asymmetric-grid diptych-asymmetric-reversed">
+              <div>
+                <div class="media-frame-portrait">
+                  <img 
+                    src="assets/remote/wp-content/uploads/2026/02/YnotUS_aahii-14-2.jpg" 
+                    alt="Aahii Custom Lighting Core Detail" 
+                    loading="lazy" 
+                    decoding="async" 
+                    width="600" 
+                    height="800" 
+                  />
+                </div>
+                <span class="photo-caption">Fig. 1.3 — Bespoke ambient lantern core casting soft architectural gradients.</span>
+              </div>
+
+              <div>
+                <div class="media-frame-wide">
+                  <img 
+                    src="assets/remote/wp-content/uploads/2026/02/YnotUS_aahii-23-1.jpg" 
+                    alt="Aahii Central Dining Vista" 
+                    loading="lazy" 
+                    decoding="async" 
+                    width="900" 
+                    height="675" 
+                  />
+                </div>
+                <span class="photo-caption">Fig. 1.4 — Main perspective looking towards the acoustic wood screen.</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Hairline Project Divider -->
+        <div style="height: 1px; background: rgba(40,48,68,0.1); margin: clamp(4rem, 6vw, 6rem) 0;"></div>
+
+        <!-- ==================== FEATURE 02: ALL SAINTS ==================== -->
+        <article class="gallery-flow-item" id="project-all-saints">
+          <div style="border-bottom: 1px solid rgba(40,48,68,0.1); padding-bottom: 1.5rem; margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <span class="micro-label" style="color: var(--color-vanilla-custard); margin-bottom: 0.35rem; display: block;">Commission 02</span>
+              <h2 style="font-family: var(--font-serif); font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 300; margin: 0; color: var(--color-space-indigo);">All Saints — Monolithic Dining Sanctuary</h2>
+            </div>
+            <a href="project-all-saints.html" class="animated-button animated-button--outline atelier-btn-secondary" style="font-size: 0.75rem;">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">View Dedicated Monograph</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a>
+          </div>
+
+          <!-- Master Spatial Shot -->
+          <div class="gallery-flow-item">
+            <div class="media-frame-horizon">
+              <img 
+                src="assets/remote/wp-content/uploads/2026/02/DSC05623-scaled.jpg" 
+                alt="All Saints Interior — Sculptural Dining Volumes by Grèce" 
+                loading="lazy" 
+                decoding="async" 
+                width="1600" 
+                height="760" 
+              />
+            </div>
+            <span class="photo-caption">Fig. 2.0 — All Saints Central Hall. Monumental arched apertures and sculpted stone partitions.</span>
+          </div>
+
+          <!-- Paired Contrast Grid -->
+          <div class="gallery-flow-item">
+            <div class="diptych-equal-grid">
+              <div>
+                <div class="media-frame-square">
+                  <img 
+                    src="assets/remote/wp-content/uploads/2025/06/DSC05614-1-scaled.jpg" 
+                    alt="All Saints Ambient Light and Arched Corridor" 
+                    loading="lazy" 
+                    decoding="async" 
+                    width="700" 
+                    height="700" 
+                  />
+                </div>
+                <span class="photo-caption">Fig. 2.1 — Arched transitions creating spatial layers and soft twilight transitions.</span>
+              </div>
+
+              <div>
+                <div class="media-frame-square">
+                  <img 
+                    src="assets/remote/wp-content/uploads/2025/06/DSC05626-1-scaled.jpg" 
+                    alt="All Saints Tactile Bar Counter and Stone Joinery" 
+                    loading="lazy" 
+                    decoding="async" 
+                    width="700" 
+                    height="700" 
+                  />
+                </div>
+                <span class="photo-caption">Fig. 2.2 — Monolithic carved bar monolith integrating warm metallic accents.</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Hairline Project Divider -->
+        <div style="height: 1px; background: rgba(40,48,68,0.1); margin: clamp(4rem, 6vw, 6rem) 0;"></div>
+
+        <!-- ==================== FEATURE 03: RASOI ==================== -->
+        <article class="gallery-flow-item" id="project-rasoi">
+          <div style="border-bottom: 1px solid rgba(40,48,68,0.1); padding-bottom: 1.5rem; margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <span class="micro-label" style="color: var(--color-vanilla-custard); margin-bottom: 0.35rem; display: block;">Commission 03</span>
+              <h2 style="font-family: var(--font-serif); font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 300; margin: 0; color: var(--color-space-indigo);">Rasoi — Spatial Hospitality &amp; Tactile Heritage</h2>
+            </div>
+            <a href="project-rasoi.html" class="animated-button animated-button--outline atelier-btn-secondary" style="font-size: 0.75rem;">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">View Dedicated Monograph</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a>
+          </div>
+
+          <div class="gallery-flow-item">
+            <div class="diptych-asymmetric-grid">
+              <div>
+                <div class="media-frame-wide">
+                  <img 
+                    src="assets/remote/wp-content/uploads/2026/02/Piyushmacrography-30-scaled.jpg" 
+                    alt="Rasoi Dining Room Architecture" 
+                    loading="lazy" 
+                    decoding="async" 
+                    width="900" 
+                    height="675" 
+                  />
+                </div>
+                <span class="photo-caption">Fig. 3.0 — Warm heritage tones, hand-rubbed timber, and ambient wall sconces.</span>
+              </div>
+
+              <div>
+                <div class="media-frame-portrait">
+                  <img 
+                    src="assets/remote/wp-content/uploads/2026/02/Piyushmacrography-22.jpg" 
+                    alt="Rasoi Material and Lighting Detail" 
+                    loading="lazy" 
+                    decoding="async" 
+                    width="600" 
+                    height="800" 
+                  />
+                </div>
+                <span class="photo-caption">Fig. 3.1 — Deep tactile joinery and intimate table illumination.</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. BIDIRECTIONAL PROJECT NAVIGATION COLOPHON
+         ======================================================================== -->
+    <nav class="project-navigation-colophon" aria-label="Related Disciplines">
+      <div class="sequence-container">
+        <div class="project-nav-grid">
+          
+          <a href="interior-design-business-premises.html" class="project-nav-card" aria-label="Previous Discipline: Business Premises">
+            <span class="project-nav-direction">← Previous Discipline</span>
+            <h3 class="project-nav-title">Business Premises</h3>
+            <span class="project-nav-discipline">Sculptural commercial headquarters &amp; creative studios</span>
+          </a>
+
+          <a href="interior-design-home.html" class="project-nav-card" aria-label="Next Discipline: Home (Private Residences)">
+            <span class="project-nav-direction">Next Discipline →</span>
+            <h3 class="project-nav-title">Home (Residential)</h3>
+            <span class="project-nav-discipline">Contemplative private residences celebrating quietude &amp; daylight</span>
+          </a>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- ========================================================================
+         5. COMMISSION INQUIRY BANNER
+         ======================================================================== -->
+    <section class="project-commission-banner">
+      <div class="commission-banner-container">
+        <span class="commission-banner-kicker">Hospitality Inquiries &amp; Private Commissions</span>
+        <h2 class="commission-banner-title">Commission an Architectural Interior</h2>
+        <p class="commission-banner-lead">
+          Grèce collaborates with visionary hoteliers, restaurateurs, and private clients worldwide to materialize immersive spatial experiences.
+        </p>
+        <div class="commission-banner-actions">
+          <a href="index.html#products" class="animated-button animated-button--outline btn-editorial-hollow">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">Explore Curated Editions</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a>
+          <a href="https://www.wordofgrece.com/book-an-appointment" class="animated-button animated-button--dark btn-editorial-solid">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">Book a Consultation</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       GLOBAL EDITORIAL FOOTER
+       ======================================================================== -->
+  <footer id="footer" class="footer" role="contentinfo">
+    <div class="container">
+      <div style="text-align: center;">
+        <a href="https://www.wordofgrece.com/book-an-appointment" class="signIn accountBt">Book an Appointment</a>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: clamp(2rem, 4vw, 4rem);">
+        <div class="footerLink">
+          <h2>OUR COMPANY</h2>
+          <ul>
+            <li><a href="word-by-grece.html">About Studio</a></li>
+            <li><a href="word-by-grece.html">Values &amp; Ethos</a></li>
+            <li><a href="interior-design-hospitality.html">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footerLink">
+          <h2>DISCIPLINES</h2>
+          <ul>
+            <li><a href="interior-design-hospitality.html">Hospitality</a></li>
+            <li><a href="interior-design-home.html">Private Living</a></li>
+            <li><a href="interior-design-business-premises.html">Business Premises</a></li>
+          </ul>
+        </div>
+
+        <div class="footerLink">
+          <h2>CUSTOMER CARE &amp; INQUIRY</h2>
+          <ul>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="https://www.instagram.com/wordofgrece/" target="_blank" rel="noopener noreferrer">Instagram (@wordofgrece)</a></li>
+            <li><a href="https://www.wordofgrece.com/book-an-appointment">Schedule Appointment</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bottomLogo" style="margin-top: clamp(3rem, 6vw, 5rem); text-align: center; border-top: 1px solid rgba(243, 240, 232, 0.12); padding-top: 2rem;">
+        <span style="font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 4rem); letter-spacing: 0.25em; text-transform: uppercase; color: rgba(243, 240, 232, 0.2);">grèce</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

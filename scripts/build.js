@@ -3,7 +3,8 @@ const path = require('path');
 
 const rootDir = path.resolve(__dirname, '..');
 const targetDirs = [
-  path.join(rootDir, 'dist')
+  path.join(rootDir, 'dist'),
+  path.join(rootDir, 'public')
 ];
 
 console.log('--- Starting Production Build for Vercel ---');
@@ -67,13 +68,7 @@ for (const outDir of targetDirs) {
     console.log(`[${dirName}] Copied data/ directory`);
   }
 
-  // 7. Copy api folder (Serverless functions)
-  const apiSrc = path.join(rootDir, 'api');
-  const apiDest = path.join(outDir, 'api');
-  if (fs.existsSync(apiSrc)) {
-    fs.cpSync(apiSrc, apiDest, { recursive: true });
-    console.log(`[${dirName}] Copied api/ directory`);
-  }
+
 }
 
 console.log('\n--- Production Build Complete: Both dist/ and public/ assembled successfully ---');

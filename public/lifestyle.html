@@ -1,0 +1,362 @@
+<!-- ALIAS OF INTERIOR-DESIGN-HOME.HTML FOR /LIFESTYLE ROUTE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Architecture & Spatial Design Portfolio — Grèce</title>
+  <meta name="description" content="Explore Grèce's residential architecture and private sanctuaries celebrating natural daylight, monolithic volumes, and tactile tranquility." />
+  <link rel="canonical" href="https://www.wordofgrece.com/lifestyle" />
+  
+  <link rel="icon" href="assets/remote/wp-content/uploads/2024/12/favicon.webp" sizes="32x32" />
+  <link rel="apple-touch-icon" href="assets/remote/wp-content/uploads/2024/12/favicon.webp" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" 
+    rel="stylesheet" 
+  />
+
+  <link rel="stylesheet" href="css/design-system.css" />
+  <link rel="stylesheet" href="css/theme-override.css" />
+</head>
+<body class="project-detail-page">
+
+  <header id="mainHeader" class="mainHeader is-scrolled">
+    <div class="header-inner">
+      <div class="header-brand">
+        <a href="index.html" class="brand-link" aria-label="Grèce — Return to Home">
+          <img 
+            src="assets/remote/wp-content/themes/grece/images/grece-logo.webp" 
+            alt="Grèce" 
+            class="brand-logo" 
+            width="120" 
+            height="25" 
+          />
+        </a>
+      </div>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown">
+            <a href="lifestyle.html" class="nav-link active" aria-haspopup="true" aria-expanded="false" id="workNavBtn">
+              Work
+              <svg class="dropdown-chevron" width="8" height="6" viewBox="0 0 8 6" fill="none" aria-hidden="true">
+                <path d="M1 1.5L4 4.5L7 1.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+            </a>
+            <div class="editorial-dropdown" role="region" aria-label="Work Submenu">
+              <div class="dropdown-inner">
+                <div class="dropdown-column">
+                  <span class="dropdown-category">Disciplines</span>
+                  <ul class="dropdown-links">
+                    <li><a href="interior-design-hospitality.html">Hospitality</a></li>
+                    <li><a href="interior-design-home.html">Private Living</a></li>
+                    <li><a href="interior-design-business-premises.html">Business Premises</a></li>
+                    <li><a href="index.html#photography">Photography</a></li>
+                    <li><a href="lifestyle.html" class="active">All Work</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown-preview">
+                  <div class="preview-media-frame">
+                    <img 
+                      id="navWorkPreviewImg" 
+                      src="assets/generated/interiors/interior-sculptural-living.jpg" 
+                      alt="Residential Sanctuary Preview" 
+                      loading="lazy" 
+                      decoding="async" 
+                      width="180" 
+                      height="135" 
+                    />
+                  </div>
+                  <div class="preview-meta">
+                    <span class="preview-tag micro-label" style="font-size: 0.65rem;">Active Discipline</span>
+                    <span class="preview-title" id="navWorkPreviewTitle">Private Living (Home)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="interior-design-hospitality.html" class="nav-link">Hospitality</a>
+          </li>
+          <li class="nav-item">
+            <a href="interior-design-home.html" class="nav-link">Private Living</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#brand-design" class="nav-link">Brand Design</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#products" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="word-by-grece.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact-us.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://www.wordofgrece.com/book-an-appointment" class="animated-button animated-button--outline inquiry-cta">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">Book an Appointment</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a>
+        <button type="button" class="menu-toggle" id="menuToggleBtn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="mobileNavModal">
+          <span class="menu-label">Menu</span>
+          <span class="burger-bars" aria-hidden="true">
+            <span class="bar-line"></span>
+            <span class="bar-line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Modal -->
+  <div class="mobile-nav-modal" id="mobileNavModal" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+    <div class="mobile-nav-content">
+      <div class="mobile-nav-header">
+        <a href="index.html" class="brand-link">
+          <img src="assets/remote/wp-content/themes/grece/images/grece-logo.webp" alt="Grèce" width="110" height="23" />
+        </a>
+        <button type="button" class="mobile-nav-close" id="mobileNavCloseBtn" aria-label="Close Navigation Menu">✕</button>
+      </div>
+      <nav class="mobile-nav-body">
+        <ul class="mobile-nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lifestyle.html" class="active">All Work</a></li>
+          <li><a href="interior-design-hospitality.html">Hospitality</a></li>
+          <li><a href="interior-design-home.html">Private Living (Home)</a></li>
+          <li><a href="interior-design-business-premises.html">Business Premises</a></li>
+          <li><a href="index.html#photography">Photography</a></li>
+          <li><a href="word-by-grece.html">About Studio</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+          <li><a href="https://www.wordofgrece.com/book-an-appointment" class="animated-button animated-button--dark mobile-cta-link">
+          <svg viewBox="0 0 24 24" class="arr-2" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+          <span class="text">Book an Appointment</span>
+          <span class="circle" aria-hidden="true"></span>
+          <svg viewBox="0 0 24 24" class="arr-1" aria-hidden="true"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+        </a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <nav class="discipline-nav-strip" aria-label="Project Discipline Switcher">
+      <div class="discipline-nav-container">
+        <div class="discipline-breadcrumbs">
+          <a href="index.html">Grèce</a>
+          <span class="breadcrumb-sep" aria-hidden="true">/</span>
+          <a href="lifestyle.html">Architecture &amp; Spatial Design</a>
+          <span class="breadcrumb-sep" aria-hidden="true">/</span>
+          <span aria-current="page">Residential Architecture</span>
+        </div>
+
+        <ul class="discipline-tabs" role="tablist">
+          <li><a href="interior-design-hospitality.html" class="discipline-tab-link">Hospitality</a></li>
+          <li><a href="interior-design-home.html" class="discipline-tab-link active" aria-selected="true">Home (Residential)</a></li>
+          <li><a href="interior-design-business-premises.html" class="discipline-tab-link">Business Premises</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="project-hero-section">
+      <div class="project-hero-container">
+        <header class="project-hero-header">
+          <div class="project-kicker-wrap">
+            <span class="project-kicker-num">02</span>
+            <span class="project-kicker-line" aria-hidden="true"></span>
+            <span class="project-kicker-cat">Spatial Discipline // Private Residential</span>
+          </div>
+          <h1 class="project-display-title">Contemplative Private Residences</h1>
+          <p class="project-display-lead">
+            Contemplative private residences celebrating quietude, natural daylight, monolithic limestone volumes, and bespoke joinery. An architectural sanctuary designed for contemplative modern living and enduring privacy.
+          </p>
+        </header>
+
+        <div class="project-meta-strip" role="region" aria-label="Project Specifications">
+          <div class="meta-col-item">
+            <span class="meta-col-key">Discipline</span>
+            <span class="meta-col-val">Private Residential Architecture</span>
+          </div>
+          <div class="meta-col-item">
+            <span class="meta-col-key">Atelier</span>
+            <span class="meta-col-val">Grèce Interiors</span>
+          </div>
+          <div class="meta-col-item">
+            <span class="meta-col-key">Materiality</span>
+            <span class="meta-col-val">Honed Limestone, European Oak &amp; Lime Plaster</span>
+          </div>
+          <div class="meta-col-item">
+            <span class="meta-col-key">Scope</span>
+            <span class="meta-col-val">Complete Architectural Interior &amp; Millwork</span>
+          </div>
+        </div>
+
+        <div class="project-master-artwork">
+          <img 
+            src="assets/generated/architecture/architecture-exterior-editorial.jpg" 
+            alt="Grèce Architecture & Spatial Design — Monolithic Daylight Interior Sanctuary"
+            fetchpriority="high"
+            decoding="async"
+            width="1600"
+            height="900"
+          />
+          <span class="artwork-credit-badge">Grèce Architecture &amp; Spatial Design Archive</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-editorial-narrative-section">
+      <div class="sequence-container">
+        <div class="editorial-story-grid">
+          <aside class="story-sidebar-quote">
+            <span class="story-quote-tag">Residential Philosophy</span>
+            <blockquote class="story-quote-text">
+              “A private residence should feel like an architectural retreat from the noise of the world — where natural daylight is the primary ornamentation.”
+            </blockquote>
+          </aside>
+          <div class="story-body-column">
+            <p>
+              In our residential commissions, architecture is treated as a calming framework for everyday life. We reject visual clutter in favor of continuous architectural volumes, seamless floor-to-ceiling millwork, and balanced sightlines.
+            </p>
+            <p>
+              The palette is grounded in warm mineral neutrals: honed limestone, soft chalk washes, raw linens, and hand-rubbed oak. These tactile materials age with dignity and respond intimately to shifting solar angles throughout the day.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-gallery-sequence" aria-label="Curated Residential Photography Sequence">
+      <div class="sequence-container">
+        <div class="gallery-flow-item">
+          <div class="media-frame-horizon">
+            <img 
+              src="assets/remote/wp-content/uploads/2025/12/home-pic-1.webp" 
+              alt="Private Sanctuary Living Chamber — Architectural Perspective" 
+              loading="lazy" 
+              decoding="async" 
+              width="1600" 
+              height="760" 
+            />
+          </div>
+          <span class="photo-caption">Fig. 1.0 — Primary living pavilion featuring monolithic stone plinths and tailored low-profile lounge seating.</span>
+        </div>
+
+        <div class="gallery-flow-item">
+          <div class="diptych-asymmetric-grid">
+            <div>
+              <div class="media-frame-wide">
+                <img 
+                  src="assets/remote/wp-content/uploads/2026/05/3-2.png" 
+                  alt="Minimalist Residential Chamber with Floor-to-Ceiling Windows" 
+                  loading="lazy" 
+                  decoding="async" 
+                  width="900" 
+                  height="675" 
+                />
+              </div>
+              <span class="photo-caption">Fig. 1.1 — Floor-to-ceiling glazed portals connecting the interior gallery to soft natural light.</span>
+            </div>
+            <div>
+              <div class="media-frame-portrait">
+                <img 
+                  src="assets/remote/wp-content/uploads/2026/05/6-1.png" 
+                  alt="Architectural Materiality and Vertical Joinery Detail" 
+                  loading="lazy" 
+                  decoding="async" 
+                  width="600" 
+                  height="800" 
+                />
+              </div>
+              <span class="photo-caption">Fig. 1.2 — Vertical hardwood screens providing acoustic dampening and delicate shadow play.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-flow-item">
+          <div class="media-frame-horizon">
+            <img 
+              src="assets/remote/wp-content/uploads/2026/05/10-1.png" 
+              alt="Contemplative Private Lounge Chamber" 
+              loading="lazy" 
+              decoding="async" 
+              width="1600" 
+              height="760" 
+            />
+          </div>
+          <span class="photo-caption">Fig. 1.3 — Contemplative library salon anchored by warm limestone and hand-finished lime plaster walls.</span>
+        </div>
+      </div>
+    </section>
+
+    <nav class="project-navigation-colophon" aria-label="Related Disciplines">
+      <div class="sequence-container">
+        <div class="project-nav-grid">
+          <a href="interior-design-hospitality.html" class="project-nav-card" aria-label="Previous Discipline: Hospitality Architecture">
+            <span class="project-nav-direction">← Previous Discipline</span>
+            <h3 class="project-nav-title">Hospitality</h3>
+            <span class="project-nav-discipline">Sensory resort environments, dining sanctuaries &amp; stone volumes</span>
+          </a>
+          <a href="interior-design-business-premises.html" class="project-nav-card" aria-label="Next Discipline: Business Premises">
+            <span class="project-nav-direction">Next Discipline →</span>
+            <h3 class="project-nav-title">Business Premises</h3>
+            <span class="project-nav-discipline">Sculptural commercial headquarters &amp; creative studios</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </main>
+
+  <footer id="footer" class="footer" role="contentinfo">
+    <div class="container">
+      <div style="text-align: center;">
+        <a href="https://www.wordofgrece.com/book-an-appointment" class="signIn accountBt">Book an Appointment</a>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: clamp(2rem, 4vw, 4rem);">
+        <div class="footerLink">
+          <h2>OUR COMPANY</h2>
+          <ul>
+            <li><a href="word-by-grece.html">About Studio</a></li>
+            <li><a href="word-by-grece.html">Values &amp; Ethos</a></li>
+            <li><a href="interior-design-hospitality.html">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footerLink">
+          <h2>DISCIPLINES</h2>
+          <ul>
+            <li><a href="interior-design-hospitality.html">Hospitality</a></li>
+            <li><a href="interior-design-home.html">Private Living</a></li>
+            <li><a href="interior-design-business-premises.html">Business Premises</a></li>
+          </ul>
+        </div>
+
+        <div class="footerLink">
+          <h2>CUSTOMER CARE &amp; INQUIRY</h2>
+          <ul>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="https://www.instagram.com/wordofgrece/" target="_blank" rel="noopener noreferrer">Instagram (@wordofgrece)</a></li>
+            <li><a href="https://www.wordofgrece.com/book-an-appointment">Schedule Appointment</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bottomLogo" style="margin-top: clamp(3rem, 6vw, 5rem); text-align: center; border-top: 1px solid rgba(243, 240, 232, 0.12); padding-top: 2rem;">
+        <span style="font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 4rem); letter-spacing: 0.25em; text-transform: uppercase; color: rgba(243, 240, 232, 0.2);">grèce</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

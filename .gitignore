@@ -1,5 +1,4 @@
 node_modules/
-public/
 dist/
 build.bat
 copy_to_public.py
@@ -20,3 +19,7 @@ scripts/check_failed_dep.js
 scripts/fetch_vercel_page.js
 scripts/find_error.js
 scripts/wait_deploy.js
+inspect.js
+delapi.js
+scripts/inspect_git.js
+commit_msg.txt
