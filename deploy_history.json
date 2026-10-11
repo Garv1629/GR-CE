@@ -1,0 +1,82 @@
+[
+  {
+    "id": 6999188691,
+    "sha": "0ce6fb4905b542d2d15ce6e967f70678062fcd72",
+    "created_at": "2026-10-11T17:33:28Z",
+    "state": "failure",
+    "target_url": "https://grce-1ys4j0457-garvchauhan0161-gmailcoms-projects.vercel.app",
+    "description": "Deployment has failed — run this Vercel CLI command: npx vercel inspect dpl_8uezPGh48J9iJ2d68T8CBjTpNPcZ --logs"
+  },
+  {
+    "id": 6998706003,
+    "sha": "8a0da8bf4e07fdea431cfec1cb559320b5617d58",
+    "created_at": "2026-10-11T16:53:44Z",
+    "state": "failure",
+    "target_url": "https://grce-2mvclxmvm-garvchauhan0161-gmailcoms-projects.vercel.app",
+    "description": "Deployment has failed — run this Vercel CLI command: npx vercel inspect dpl_BZAwD2vQyYpaPJLwBHNVt2rcnHCN --logs"
+  },
+  {
+    "id": 6998668103,
+    "sha": "f14864a20bcba07856a59da8239b3a35b118a0a1",
+    "created_at": "2026-10-11T16:50:34Z",
+    "state": "failure",
+    "target_url": "https://grce-5noeh2qwn-garvchauhan0161-gmailcoms-projects.vercel.app",
+    "description": "Deployment has failed — run this Vercel CLI command: npx vercel inspect dpl_FRnYL9Ha8grn16TA6BuyE4RXmPwP --logs"
+  },
+  {
+    "id": 6993647265,
+    "sha": "d2b96efd2fdb03ce343ba3aae4fd2e6ae970d683",
+    "created_at": "2026-10-11T09:32:32Z",
+    "state": "failure",
+    "target_url": "https://grce-lmuhikdrb-garvchauhan0161-gmailcoms-projects.vercel.app",
+    "description": "Deployment has failed — run this Vercel CLI command: npx vercel inspect dpl_EzuAXaiYNhWozr5ESri2nJx7caEJ --logs"
+  },
+  {
+    "id": 6993547015,
+    "sha": "057f48a080bbae310b55edfb8ba15006622a2e24",
+    "created_at": "2026-10-11T09:23:30Z",
+    "state": "failure",
+    "target_url": "https://grce-l41ha89g7-garvchauhan0161-gmailcoms-projects.vercel.app",
+    "description": "Deployment has failed — run this Vercel CLI command: npx vercel inspect dpl_CE8tdnPdyeqyvoo467oRYHh6cXDy --logs"
+  },
+  {
+    "id": 6993203682,
+    "sha": "04a88d15681ed43484d9e230e5f3d7f845b83bb4",
+    "created_at": "2026-10-11T08:48:41Z",
+    "state": "success",
+    "target_url": "https://grce-2vxo06vt2-garvchauhan0161-gmailcoms-projects.vercel.app",
+    "description": "Deployment has completed"
+  },
+  {
+    "id": 6986698976,
+    "sha": "13a58c65901e100cd9456d2a3a9babb3295605a1",
+    "created_at": "2026-10-10T20:50:11Z",
+    "state": "success",
+    "target_url": "https://grce-gvorclchq-garvchauhan0161-gmailcoms-projects.vercel.app",
+    "description": "Deployment has completed"
+  },
+  {
+    "id": 6986601001,
+    "sha": "5bd44781f0da12c9e97ad4f1c8a452b75ca762c8",
+    "created_at": "2026-10-10T20:41:11Z",
+    "state": "success",
+    "target_url": "https://grce-g316ncz4l-garvchauhan0161-gmailcoms-projects.vercel.app",
+    "description": "Deployment has completed"
+  },
+  {
+    "id": 6986438958,
+    "sha": "bd1d528285b6d142ecfef5d02321f3f5b12a6304",
+    "created_at": "2026-10-10T20:26:42Z",
+    "state": "success",
+    "target_url": "https://grce-2lkvs1cti-garvchauhan0161-gmailcoms-projects.vercel.app",
+    "description": "Deployment has completed"
+  },
+  {
+    "id": 6986409253,
+    "sha": "e243f95fd224f8b51b083cd0ca148b2299f117ce",
+    "created_at": "2026-10-10T20:24:10Z",
+    "state": "success",
+    "target_url": "https://grce-ly1qye42u-garvchauhan0161-gmailcoms-projects.vercel.app",
+    "description": "Deployment has completed"
+  }
+]

@@ -1,0 +1,40 @@
+          stage: formData.get('stage') || '',
+          message: formData.get('message'),
+          website: formData.get('website') || '' // honeypot
+        };
+
+        // 3. UI Loading State & Lock
+        isSubmitting = true;
+        submitBtn.disabled = true;
+        submitBtn.classList.add('is-submitting');
+        if (submitLabel) submitLabel.textContent = 'Transmitting...';
+        statusBanner.className = 'form-status-banner';
+        statusBanner.textContent = '';
+
+        try {
+          const response = await fetch('/api/inquiry', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+            },
+            body: JSON.stringify(payload)
+          });
+
+          const data = await response.json();
+
+          if (response.ok && data.success) {
+            // Success handling: Hide form, display confirmed reference ID
+            form.style.display = 'none';
+            successCard.classList.add('is-visible');
+            if (successRefCode) {
+              successRefCode.textContent = data.referenceId || 'GRECE-2026-CONFIRMED';
+            }
+            statusBanner.className = 'form-status-banner';
+            statusBanner.textContent = '';
+            successCard.scrollIntoView({ behavior: 'smooth' });
+          } else {
+            // Server rejected (400 validation, honeypot, etc.)
+            isSubmitting = false;
+            submitBtn.disabled = false;
+            submitBtn.classList.remove('is-submitting');
