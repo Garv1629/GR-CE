@@ -1,5 +1,6 @@
 node_modules/
 public/
+dist/
 build.bat
 copy_to_public.py
 *.log
