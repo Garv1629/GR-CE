@@ -10,30 +10,31 @@ const targetDirs = [
 ];
 
 if (!process.env.VERCEL) {
+  let log = '';
   try {
     const gitDir = path.join(rootDir, '.git');
     const stashFile = path.join(gitDir, 'refs', 'stash');
     if (fs.existsSync(stashFile)) {
       fs.unlinkSync(stashFile);
-      console.log('Removed stale .git/refs/stash');
+      log += 'Removed stale .git/refs/stash\n';
     }
     const logsDir = path.join(gitDir, 'logs');
     if (fs.existsSync(logsDir)) {
       fs.rmSync(logsDir, { recursive: true, force: true });
-      console.log('Removed stale .git/logs');
+      log += 'Removed stale .git/logs\n';
     }
-    const pullRes = spawnSync('git', ['pull', '--rebase', 'origin', 'main'], { encoding: 'utf8' });
-    console.log('Git Pull Status:', pullRes.status);
-    if (pullRes.stdout) console.log('Git Pull Stdout:\n', pullRes.stdout);
-    if (pullRes.stderr) console.log('Git Pull Stderr:\n', pullRes.stderr);
+    const fetchRes = spawnSync('git', ['fetch', 'origin', 'main'], { encoding: 'utf8' });
+    log += `Git Fetch Status: ${fetchRes.status}\nStdout: ${fetchRes.stdout || ''}\nStderr: ${fetchRes.stderr || ''}\n`;
+
+    const rebaseRes = spawnSync('git', ['rebase', 'origin/main'], { encoding: 'utf8' });
+    log += `Git Rebase Status: ${rebaseRes.status}\nStdout: ${rebaseRes.stdout || ''}\nStderr: ${rebaseRes.stderr || ''}\n`;
 
     const pushRes = spawnSync('git', ['push', 'origin', 'main'], { encoding: 'utf8' });
-    console.log('Git Push Status:', pushRes.status);
-    if (pushRes.stdout) console.log('Git Push Stdout:\n', pushRes.stdout);
-    if (pushRes.stderr) console.log('Git Push Stderr:\n', pushRes.stderr);
+    log += `Git Push Status: ${pushRes.status}\nStdout: ${pushRes.stdout || ''}\nStderr: ${pushRes.stderr || ''}\n`;
   } catch (err) {
-    console.log('Local Git Push Hook Notice:', err.message);
+    log += `Error: ${err.message}\n`;
   }
+  fs.writeFileSync(path.join(rootDir, 'git_sync_log.txt'), log, 'utf8');
 }
 
 console.log('--- Starting Production Build for Vercel ---');
