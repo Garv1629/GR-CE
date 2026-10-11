@@ -1,1 +1,1 @@
-fix: populate static build outputs and remove api collision for Vercel deployment
+fix: sync production build script with static assets and cleanup

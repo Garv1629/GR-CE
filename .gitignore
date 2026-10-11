@@ -23,3 +23,6 @@ inspect.js
 delapi.js
 scripts/inspect_git.js
 commit_msg.txt
+diag_out.txt
+diag_result.json
+clean_git.js
